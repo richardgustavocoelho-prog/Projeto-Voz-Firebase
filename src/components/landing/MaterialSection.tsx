@@ -47,7 +47,7 @@ export function MaterialSection() {
   return (
     <section className="py-12 md:py-24 bg-secondary">
       <div className="container px-4 md:px-6">
-        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-foreground mb-12">
+        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-secondary-foreground mb-12">
           Com esse <span className="text-primary">MATERIAL</span> você terá!
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
@@ -55,27 +55,25 @@ export function MaterialSection() {
             <div
               key={index}
               className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 hover:shadow-xl
-                ${card.variant === 'primary' ? 'bg-[#e0f2fe]' : 'bg-background'}
+                ${card.variant === 'primary' ? 'bg-background' : 'bg-secondary'}
               `}
             >
               <div className="mb-4">
                 <Star
-                  className={`h-10 w-10
-                    ${card.variant === 'primary' ? 'text-primary' : 'text-primary'}
-                  `}
-                  fill={card.variant === 'primary' ? 'hsl(var(--primary))' : 'hsl(var(--primary))'}
+                  className={`h-10 w-10 text-accent`}
+                  fill={'hsl(var(--accent))'}
                 />
               </div>
               <h3
                 className={`text-lg font-bold uppercase mb-3
-                  ${card.variant === 'primary' ? 'text-foreground' : 'text-foreground'}
+                  ${card.variant === 'primary' ? 'text-foreground' : 'text-secondary-foreground'}
                 `}
               >
                 {card.title}
               </h3>
               <p
                 className={`text-sm
-                  ${card.variant === 'primary' ? 'text-muted-foreground' : 'text-muted-foreground'}
+                  ${card.variant === 'primary' ? 'text-muted-foreground' : 'text-secondary-foreground/80'}
                 `}
               >
                 {card.description}

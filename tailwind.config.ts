@@ -20,6 +20,7 @@ export default {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+          grey: '#374151',
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
@@ -44,6 +45,7 @@ export default {
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
+          alt: '#DC2626',
         },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

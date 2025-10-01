@@ -11,7 +11,7 @@ const cardData = [
 
 export function ForYouSection() {
   return (
-    <section className="py-12 md:py-24 bg-black">
+    <section className="py-12 md:py-24 bg-card-grey">
       <div className="container px-4 md:px-6">
         <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-white mb-12">
           ESSE MATERIAL É PARA VOCÊ:
@@ -20,9 +20,9 @@ export function ForYouSection() {
           {cardData.map((text, index) => (
             <div
               key={index}
-              className="bg-[#FF8C00] rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
+              className="bg-primary rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
             >
-              <p className="text-white font-bold uppercase">{text}</p>
+              <p className="text-primary-foreground font-bold uppercase">{text}</p>
             </div>
           ))}
         </div>

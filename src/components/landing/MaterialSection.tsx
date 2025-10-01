@@ -4,78 +4,78 @@ const cardData = [
   {
     title: "CRONOGRAMA COMPLETO E ESTRUTURADO",
     description: "Um plano detalhado com aulas prontas, organizadas passo a passo, do iniciante ao avançado.",
-    variant: "red",
+    variant: "primary",
   },
   {
     title: "ECONOMIA DE TEMPO",
     description: "Evite noites perdidas planejando o que ensinar. Todo o cronograma já está preparado para aplicar diretamente.",
-    variant: "red",
+    variant: "primary",
   },
   {
     title: "DIDÁTICA ORGANIZADA E EFICIENTE",
     description: "Aulas progressivas que garantem que seus alunos avancem com confiança e resultados reais.",
-    variant: "grey",
+    variant: "secondary",
   },
   {
     title: "FLEXIBILIDADE PARA DIFERENTES NÍVEIS E IDADES",
     description: "Conteúdo adaptável para ensinar desde crianças até adultos, seja em nível iniciante ou avançado.",
-    variant: "grey",
+    variant: "secondary",
   },
   {
     title: "FOCO NA PROSPECÇÃO DE NOVOS ALUNOS",
     description: "Com o planejamento resolvido, sobra mais tempo para captar novos clientes e expandir sua agenda.",
-    variant: "red",
+    variant: "primary",
   },
   {
     title: "REDUÇÃO DO ESTRESSE E DA IMPROVISAÇÃO",
     description: "Ensine com confiança e segurança, sem se preocupar com o que preparar para a próxima aula.",
-    variant: "red",
+    variant: "primary",
   },
   {
     title: "INVESTIMENTO BAIXO COM ALTO RETORNO",
     description: "Pelo preço promocional, o pack oferece um excelente custo-benefício, otimizando seu trabalho e melhorando a qualidade das aulas.",
-    variant: "grey",
+    variant: "secondary",
   },
   {
     title: "IDEAL PARA PROFESSORES INICIANTES E EXPERIENTES",
     description: "Seja para quem está começando ou para quem já tem experiência, o pack facilita a vida e eleva o nível de ensino.",
-    variant: "grey",
+    variant: "secondary",
   },
 ];
 
 export function MaterialSection() {
   return (
-    <section className="py-12 md:py-24 bg-[#111111]">
+    <section className="py-12 md:py-24 bg-secondary">
       <div className="container px-4 md:px-6">
-        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-white mb-12">
-          Com esse <span className="text-destructive-alt">MATERIAL</span> você terá!
+        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-foreground mb-12">
+          Com esse <span className="text-primary">MATERIAL</span> você terá!
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {cardData.map((card, index) => (
             <div
               key={index}
               className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 hover:shadow-xl
-                ${card.variant === 'red' ? 'bg-destructive-alt' : 'bg-card-grey'}
+                ${card.variant === 'primary' ? 'bg-primary' : 'bg-background'}
               `}
             >
               <div className="mb-4">
                 <Star
                   className={`h-10 w-10
-                    ${card.variant === 'red' ? 'text-white' : 'text-destructive-alt'}
+                    ${card.variant === 'primary' ? 'text-primary-foreground' : 'text-primary'}
                   `}
-                  fill={card.variant === 'red' ? 'white' : '#DC2626'}
+                  fill={card.variant === 'primary' ? 'hsl(var(--primary-foreground))' : 'hsl(var(--primary))'}
                 />
               </div>
               <h3
                 className={`text-lg font-bold uppercase mb-3
-                  ${card.variant === 'red' ? 'text-white' : 'text-white'}
+                  ${card.variant === 'primary' ? 'text-primary-foreground' : 'text-foreground'}
                 `}
               >
                 {card.title}
               </h3>
               <p
                 className={`text-sm
-                  ${card.variant === 'red' ? 'text-white/80' : 'text-white/80'}
+                  ${card.variant === 'primary' ? 'text-primary-foreground/80' : 'text-muted-foreground'}
                 `}
               >
                 {card.description}

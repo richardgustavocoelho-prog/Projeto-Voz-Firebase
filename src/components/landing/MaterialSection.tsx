@@ -55,27 +55,27 @@ export function MaterialSection() {
             <div
               key={index}
               className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 hover:shadow-xl
-                ${card.variant === 'primary' ? 'bg-primary' : 'bg-background'}
+                ${card.variant === 'primary' ? 'bg-[#e0f2fe]' : 'bg-background'}
               `}
             >
               <div className="mb-4">
                 <Star
                   className={`h-10 w-10
-                    ${card.variant === 'primary' ? 'text-primary-foreground' : 'text-primary'}
+                    ${card.variant === 'primary' ? 'text-primary' : 'text-primary'}
                   `}
-                  fill={card.variant === 'primary' ? 'hsl(var(--primary-foreground))' : 'hsl(var(--primary))'}
+                  fill={card.variant === 'primary' ? 'hsl(var(--primary))' : 'hsl(var(--primary))'}
                 />
               </div>
               <h3
                 className={`text-lg font-bold uppercase mb-3
-                  ${card.variant === 'primary' ? 'text-primary-foreground' : 'text-foreground'}
+                  ${card.variant === 'primary' ? 'text-foreground' : 'text-foreground'}
                 `}
               >
                 {card.title}
               </h3>
               <p
                 className={`text-sm
-                  ${card.variant === 'primary' ? 'text-primary-foreground/80' : 'text-muted-foreground'}
+                  ${card.variant === 'primary' ? 'text-muted-foreground' : 'text-muted-foreground'}
                 `}
               >
                 {card.description}

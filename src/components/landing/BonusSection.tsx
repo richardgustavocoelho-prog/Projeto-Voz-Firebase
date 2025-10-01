@@ -1,41 +1,56 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, CalendarDays } from "lucide-react";
+"use client";
+
+import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
 
 export function BonusSection() {
   return (
     <section id="bonus" className="py-12 md:py-24 bg-background">
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline uppercase mb-12">
-            E AINDA TEM BÔNUS ESPECIAIS
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline uppercase mb-12 text-accent">
+            BÔNUS ESPECIAIS PARA GARANTIR HOJE!
           </h2>
         </div>
         <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
-          <Card className="shadow-lg transform transition-transform duration-300 hover:-translate-y-2 bg-secondary text-secondary-foreground">
-            <CardHeader className="items-center text-center p-6">
-              <div className="p-4 bg-primary/10 rounded-full">
-                <FileText className="h-8 w-8 text-primary" />
+          {/* Card 1: Modelos de Contratos */}
+          <Card className="bg-secondary text-secondary-foreground overflow-hidden shadow-xl transform transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+            <CardContent className="p-6 flex flex-col items-center text-center flex-grow">
+              <div className="relative w-full aspect-[4/3] mb-6">
+                <Image
+                  src="https://picsum.photos/seed/contract/600/450"
+                  alt="Ilustração de um contrato em uma prancheta"
+                  fill
+                  className="object-contain"
+                  data-ai-hint="contract clipboard"
+                />
               </div>
-              <CardTitle className="mt-4 font-headline text-2xl">Modelos de Contrato</CardTitle>
-            </CardHeader>
-            <CardContent className="px-6 pb-6">
-              <p className="text-secondary-foreground/80 text-center">
-                Ganhe acesso a modelos de contrato de prestação de serviços para
-                formalizar suas aulas e proteger seu negócio.
+              <h3 className="text-xl font-bold uppercase text-secondary-foreground">
+                Modelos de Contratos Pré-Prontos
+              </h3>
+              <p className="text-8xl font-black text-primary mt-4 font-headline">
+                GRÁTIS
               </p>
             </CardContent>
           </Card>
-          <Card className="shadow-lg transform transition-transform duration-300 hover:-translate-y-2 bg-secondary text-secondary-foreground">
-            <CardHeader className="items-center text-center p-6">
-              <div className="p-4 bg-primary/10 rounded-full">
-                <CalendarDays className="h-8 w-8 text-primary" />
+
+          {/* Card 2: Planner Digital */}
+          <Card className="bg-secondary text-secondary-foreground overflow-hidden shadow-xl transform transition-transform duration-300 hover:-translate-y-2 flex flex-col">
+            <CardContent className="p-6 flex flex-col items-center text-center flex-grow">
+              <div className="relative w-full aspect-[4/3] mb-6">
+                <Image
+                  src="https://picsum.photos/seed/planner/600/450"
+                  alt="Ilustração de um planner digital em um tablet"
+                  fill
+                  className="object-contain"
+                  data-ai-hint="digital planner"
+                />
               </div>
-              <CardTitle className="mt-4 font-headline text-2xl">Planner Digital</CardTitle>
-            </CardHeader>
-            <CardContent className="px-6 pb-6">
-              <p className="text-secondary-foreground/80 text-center">
-                Um planner digital exclusivo para organizar suas aulas, estudos e
-                metas, ajudando a otimizar sua rotina.
+              <h3 className="text-xl font-bold uppercase text-secondary-foreground">
+                Planner Digital Para Professores de Música
+              </h3>
+              <p className="text-8xl font-black text-primary mt-4 font-headline">
+                GRÁTIS
               </p>
             </CardContent>
           </Card>

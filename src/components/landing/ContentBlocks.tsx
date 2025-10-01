@@ -6,52 +6,48 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 const cardData = [
   {
     id: "vocal-technique",
-    title: "🔴 600 AULAS DE TÉCNICA VOCAL ESTRUTURADAS – DO ZERO AO AVANÇADO",
+    title: "🔴 600 Aulas de Técnica Vocal Estruturadas - Do Zero ao Avançado",
     benefits: [
-      "Módulos passo a passo, fácil aplicação.",
-      "Exercícios práticos guiados.",
-      "Postura, respiração, projeção, afinação e interpretação.",
-      "Conteúdo testado e validado.",
+      "Método passo a passo, ideal para iniciantes e professores.",
+      "Aulas com teoria clara, prática guiada e tarefa de casa.",
+      "Tudo organizado em módulos temáticos: postura, respiração, projeção, afinação, vibrato, interpretação e mais.",
+      "Linguagem acessível, didática moderna e 100% aplicável.",
     ],
   },
   {
     id: "study-plan",
-    title: "📅 PLANO DE ESTUDO PRONTO E CUSTOMIZÁVEL",
+    title: "📅 Plano de Estudo Pronto para Aplicar Hoje",
     benefits: [
-      "Sequência didática para aulas de 30, 45 ou 60 minutos.",
-      "Progressão lógica do iniciante ao avançado.",
-      "Flexibilidade para adaptar o material ao seu método.",
-      "Economia de tempo no planejamento.",
+      "Sequência lógica e progressiva: basta seguir e evoluir.",
+      "Estrutura pensada para ser usada em aulas presenciais, online ou para autoestudo.",
+      "Cada aula leva em média 30 minutos e já vem com tempo estimado para cada etapa.",
     ],
   },
   {
     id: "training-tools",
-    title: "🔧 FERRAMENTAS DE TREINO E PERFORMANCE",
+    title: "🔧 Ferramentas de Treino com Materiais Simples",
     benefits: [
-      "Playbacks de aquecimento e desaquecimento vocal.",
-      "Exercícios de percepção rítmica e melódica.",
-      "Técnicas para presença de palco e controle da ansiedade.",
-      "Materiais de apoio em áudio e PDF.",
+      "Técnicas com balão, canudo, espelho, tubo de PVC e outros recursos baratos e eficazes.",
+      "Exercícios práticos com vocalizes e sugestões de uso de apps gratuitos.",
+      "Atividades de autocorreção, percepção auditiva e consciência corporal.",
     ],
   },
   {
     id: "repertoire",
-    title: "🎤 APLICAÇÃO REAL COM REPERTÓRIO VERSÁTIL",
+    title: "🎤 Aplicação Real com Repertório, Interpretação e Microfone",
     benefits: [
-      "+100 músicas cifradas e com playback.",
-      "Estilos variados: pop, rock, MPB, gospel e mais.",
-      "Análise de melodia e harmonia.",
-      "Dicas de interpretação para cada canção.",
+      "Treinamento completo com foco em performance.",
+      "Aulas que ensinam como usar o microfone com técnica e estilo.",
+      "Módulo de interpretação musical: cante com verdade, não só com técnica.",
     ],
   },
   {
     id: "teaching-didactics",
-    title: "🧑‍🏫 DIDÁTICA PROFISSIONAL PARA PROFESSORES",
+    title: "🧑‍🏫 Didática Profissional Pronta para Professores",
     benefits: [
-      "Como estruturar uma aula de canto cativante.",
-      "Técnicas para identificar e corrigir dificuldades dos alunos.",
-      "Estratégias para manter os alunos motivados.",
-      "Modelo de avaliação de desempenho.",
+      "Ideal para professores que querem dar aula com plano e segurança.",
+      "Pode ser usado como currículo completo em escolas de música.",
+      "Economia de tempo: não precisa planejar aula por aula.",
     ],
   }
 ];

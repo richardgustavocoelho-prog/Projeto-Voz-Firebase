@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "vocal-technique",
+      "description": "Ilustração de ondas sonoras representando técnica vocal.",
+      "imageUrl": "https://images.unsplash.com/photo-1650513737281-882e597ee5e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2b2NhbCUyMHRlY2huaXF1ZXxlbnwwfHx8fDE3NTkzNTgyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vocal technique"
+    },
+    {
+      "id": "study-plan",
+      "description": "Ilustração de um calendário ou planner representando um plano de estudo.",
+      "imageUrl": "https://images.unsplash.com/photo-1650884226719-0b829f2808a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkeSUyMHBsYW58ZW58MHx8fHwxNzU5MzU4Mjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "study plan"
+    },
+    {
+      "id": "training-tools",
+      "description": "Ilustração de ferramentas como metrônomo e diapasão.",
+      "imageUrl": "https://images.unsplash.com/photo-1575839127397-c12e55f70a38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmFpbmluZyUyMHRvb2xzfGVufDB8fHx8MTc1OTM1ODI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "training tools"
+    },
+    {
+      "id": "repertoire",
+      "description": "Ilustração de notas musicais e um microfone, representando repertório musical.",
+      "imageUrl": "https://images.unsplash.com/photo-1548206328-a50e7afafc6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNpYyUyMHJlcGVydG9pcmV8ZW58MHx8fHwxNzU5MzU4Mjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music repertoire"
+    },
+    {
+      "id": "teaching-didactics",
+      "description": "Ilustração de um professor ensinando, representando didática.",
+      "imageUrl": "https://images.unsplash.com/photo-1722299547714-697e1c92ed41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjB0ZWFjaGluZ3xlbnwwfHx8fDE3NTkzNTgyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional teaching"
+    }
+  ]
 }

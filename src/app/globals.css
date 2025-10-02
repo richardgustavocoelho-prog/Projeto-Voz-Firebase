@@ -11,14 +11,14 @@ body {
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 0 0% 13%;
+    --foreground: 20 14% 4%;
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 13%;
+    --card-foreground: 20 14% 4%;
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 13%;
+    --popover-foreground: 20 14% 4%;
     --primary: 180 100% 33%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 10%;
+    --secondary: 0 0% 20%;
     --secondary-foreground: 0 0% 94%;
     --muted: 210 16% 93%;
     --muted-foreground: 210 8% 45%;

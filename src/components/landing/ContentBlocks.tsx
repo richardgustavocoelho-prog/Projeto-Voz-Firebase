@@ -64,10 +64,17 @@ export function ContentBlocks() {
           TENHA ACESSO:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {cardData.map((card) => {
+          {cardData.map((card, index) => {
             const image = getImage(card.id);
+            const isPrimary = index % 2 === 0;
+
             return (
-              <Card key={card.id} className="shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col">
+              <Card 
+                key={card.id} 
+                className={`border-2 border-solid flex flex-col
+                  ${isPrimary ? 'bg-primary border-accent' : 'bg-secondary border-accent'}
+                `}
+              >
                 <CardContent className="p-6 flex-grow flex flex-col">
                   {image && (
                     <div className="mb-6 rounded-md overflow-hidden aspect-[3/2]">
@@ -81,11 +88,11 @@ export function ContentBlocks() {
                       />
                     </div>
                   )}
-                  <h3 className="text-lg font-bold uppercase text-foreground mb-4 leading-tight">{card.title}</h3>
-                  <ul className="space-y-2 text-foreground/80 flex-grow">
-                    {card.benefits.map((benefit, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">✅</span>
+                  <h3 className={`text-lg font-bold uppercase mb-4 leading-tight ${isPrimary ? 'text-black' : 'text-accent'}`}>{card.title}</h3>
+                  <ul className={`space-y-2 flex-grow ${isPrimary ? 'text-black' : 'text-white'}`}>
+                    {card.benefits.map((benefit, idx) => (
+                      <li key={idx} className="flex items-start gap-3">
+                        <span className="text-accent font-bold mt-1">✅</span>
                         <span>{benefit}</span>
                       </li>
                     ))}

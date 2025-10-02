@@ -44,31 +44,34 @@ export function MaterialSection() {
           Com esse MATERIAL você terá!
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {cardData.map((card, index) => (
-            <div
-              key={index}
-              className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 
-                ${index % 2 === 0 ? 'bg-primary/90' : 'bg-accent/90'}
-              `}
-            >
-              <div className="mb-4">
-                <Star
-                  className={`h-10 w-10 text-white`}
-                  fill={'#FFFFFF'}
-                />
+          {cardData.map((card, index) => {
+            const isGreenCard = index % 2 === 0;
+            return (
+              <div
+                key={index}
+                className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 
+                  ${isGreenCard ? 'bg-primary/90' : 'bg-accent/90'}
+                `}
+              >
+                <div className="mb-4">
+                  <Star
+                    className={`h-10 w-10 ${isGreenCard ? 'text-accent' : 'text-white'}`}
+                    fill={isGreenCard ? 'hsl(var(--accent))' : '#FFFFFF'}
+                  />
+                </div>
+                <h3
+                  className={`text-lg font-bold uppercase mb-3 ${isGreenCard ? 'text-white' : 'text-black'}`}
+                >
+                  {card.title}
+                </h3>
+                <p
+                  className={`text-sm text-black`}
+                >
+                  {card.description}
+                </p>
               </div>
-              <h3
-                className={`text-lg font-bold uppercase mb-3 text-black`}
-              >
-                {card.title}
-              </h3>
-              <p
-                className={`text-sm text-black`}
-              >
-                {card.description}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

@@ -36,7 +36,7 @@ export function PricingSection() {
             Promoção de lançamento pode encerrar a qualquer momento.
           </p>
           <div className="relative inline-block my-4">
-            <p className="text-4xl md:text-5xl font-bold text-destructive line-through decoration-destructive decoration-4">
+            <p className="text-4xl md:text-5xl font-bold text-destructive-alt line-through decoration-destructive-alt decoration-4">
               DE R$ 147,00
             </p>
           </div>

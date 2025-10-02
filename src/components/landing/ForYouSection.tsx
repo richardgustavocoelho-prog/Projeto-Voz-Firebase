@@ -20,7 +20,7 @@ export function ForYouSection() {
           {cardData.map((text, index) => (
             <div
               key={index}
-              className="bg-[#fc8404] rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
+              className="bg-destructive-alt rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
             >
               <p className="text-white font-bold uppercase">{text}</p>
             </div>

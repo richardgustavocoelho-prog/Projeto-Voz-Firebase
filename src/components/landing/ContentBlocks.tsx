@@ -74,13 +74,13 @@ export function ContentBlocks() {
               >
                 <CardContent className="p-6 flex-grow flex flex-col">
                   {image && (
-                    <div className="mb-6 rounded-md overflow-hidden aspect-[4/3]">
+                    <div className="mb-6 rounded-md overflow-hidden aspect-video">
                       <Image
                         src={image.imageUrl}
                         alt={image.description}
                         width={600}
                         height={450}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         data-ai-hint={image.imageHint}
                       />
                     </div>

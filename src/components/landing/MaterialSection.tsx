@@ -48,7 +48,7 @@ export function MaterialSection() {
     <section className="py-12 md:py-24 bg-secondary">
       <div className="container px-4 md:px-6">
         <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-secondary-foreground mb-12">
-          Com esse <span className="text-primary">MATERIAL</span> você terá!
+          Com esse <span className="text-accent">MATERIAL</span> você terá!
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {cardData.map((card, index) => (
@@ -72,8 +72,7 @@ export function MaterialSection() {
                 {card.title}
               </h3>
               <p
-                className={`text-sm
-                  ${card.variant === 'primary' ? 'text-muted-foreground' : 'text-secondary-foreground/80'}
+                className={`text-sm text-accent
                 `}
               >
                 {card.description}

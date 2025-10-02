@@ -31,7 +31,7 @@ export function BonusSection() {
               <h3 className="text-lg font-bold uppercase text-white">
                 Modelos de Contratos Pré-Prontos
               </h3>
-              <p className="text-7xl font-black text-white mt-4 font-headline">
+              <p className="text-7xl font-black text-primary mt-4 font-headline">
                 GRÁTIS
               </p>
             </CardContent>
@@ -55,7 +55,7 @@ export function BonusSection() {
               <h3 className="text-lg font-bold uppercase text-white">
                 Planner Digital Para Professores de Música
               </h3>
-              <p className="text-7xl font-black text-white mt-4 font-headline">
+              <p className="text-7xl font-black text-primary mt-4 font-headline">
                 GRÁTIS
               </p>
             </CardContent>

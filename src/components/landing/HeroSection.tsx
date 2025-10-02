@@ -9,7 +9,7 @@ export function HeroSection() {
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         <div className="max-w-4xl space-y-6">
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline uppercase">
-            JÁ PENSOU EM PASSAR MESES SEM PRECISAR ESCREVER UMA ÚNICA AULA?
+            <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             São mais de 600 aulas prontas e estruturadas para você aplicar

@@ -1,3 +1,4 @@
+"use client";
 import { Star } from "lucide-react";
 
 const cardData = [
@@ -47,14 +48,15 @@ export function MaterialSection() {
   return (
     <section className="py-12 md:py-24 bg-secondary">
       <div className="container px-4 md:px-6">
-        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-secondary-foreground mb-12">
-          Com esse <span className="text-accent">MATERIAL</span> você terá!
+        <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-accent mb-12">
+          Com esse MATERIAL você terá!
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {cardData.map((card, index) => (
             <div
               key={index}
-              className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 hover:shadow-xl
+              className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 
+                border border-accent/50 shadow-lg shadow-accent/10
                 ${card.variant === 'primary' ? 'bg-background' : 'bg-secondary'}
               `}
             >

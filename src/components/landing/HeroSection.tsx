@@ -4,7 +4,8 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-[80vh] md:min-h-screen flex items-center justify-center pt-24 pb-12 bg-background"
+      className="relative w-full min-h-[80vh] md:min-h-screen flex items-center justify-center pt-24 pb-12"
+      style={{ backgroundColor: '#141414' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         <div className="max-w-4xl space-y-6">

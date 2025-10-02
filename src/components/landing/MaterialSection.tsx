@@ -38,7 +38,7 @@ const cardData = [
 
 export function MaterialSection() {
   return (
-    <section className="py-12 md:py-24 bg-background">
+    <section className="py-12 md:py-24" style={{ backgroundColor: '#1c1c1c' }}>
       <div className="container px-4 md:px-6">
         <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-foreground mb-12">
           Com esse MATERIAL você terá!

@@ -22,6 +22,8 @@ const features = [
 const bonuses = [
   "BÔNUS: MODELOS DE CONTRATO PRÉ-PRONTOS",
   "BÔNUS: PLANNER DIGITAL PARA PROFESSORES DE MÚSICA",
+  "BÔNUS: BIBLIOTECA DE REPERTÓRIO EXCLUSIVO",
+  "BÔNUS: MINI GUIA DE DIDÁTICA MODERNA",
 ];
 
 export function PricingSection() {

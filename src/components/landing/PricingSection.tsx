@@ -26,7 +26,7 @@ const bonuses = [
 
 export function PricingSection() {
   return (
-    <section id="pricing" className="py-12 md:py-24 bg-background">
+    <section id="pricing" className="py-12 md:py-24 bg-white">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold uppercase text-accent mb-2">

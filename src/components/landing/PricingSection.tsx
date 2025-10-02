@@ -1,49 +1,84 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { ChevronRight, Gift } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 const features = [
-  "+600 Aulas Prontas",
-  "Material do Básico ao Avançado",
-  "Repertório com Playbacks",
-  "Exercícios e Apostilas em PDF",
-  "Bônus Exclusivos",
-  "Acesso Vitalício",
+  "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
+  "ROTEIROS DE AULA COM TEMPO ESTIMADO, PASSO A PASSO E TAREFA DE CASA",
+  "APLICAÇÕES REAIS COM INTERPRETAÇÃO MUSICAL, REPERTÓRIO E USO DO MICROFONE",
+  "ECONOMIA DE TEMPO — NÃO PRECISA MAIS MONTAR AULA DO ZERO",
+  "ESTRUTURA PROFISSIONAL, MESMO PARA QUEM NUNCA DEU AULA",
+  "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
+  "CRONOGRAMA PASSO A PASSO",
+  "EM PDF PARA FACILITAR CONSULTA",
+  "ACESSO VITALÍCIO",
+  "SEM MENSALIDADES",
+  "GARANTIA DE 7 DIAS",
+  "ATUALIZAÇÕES GRÁTIS",
+];
+
+const bonuses = [
+  "BÔNUS: MODELOS DE CONTRATO PRÉ-PRONTOS",
+  "BÔNUS: PLANNER DIGITAL PARA PROFESSORES DE MÚSICA",
 ];
 
 export function PricingSection() {
   return (
     <section id="pricing" className="py-12 md:py-24 bg-background">
-      <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center p-8 md:p-12 bg-secondary rounded-xl shadow-2xl border">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline uppercase text-secondary-foreground">
-            Acesso Imediato a Todo o Conteúdo
+      <div className="container px-4 md:px-6 flex flex-col items-center">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold uppercase text-accent mb-2">
+            OFERTA ESPECIAL PARA GARANTIR HOJE!
           </h2>
-          <div className="my-8">
-            <p className="text-xl text-secondary-foreground/80 line-through">
-              DE R$ 97,00
+          <p className="text-accent/80">
+            Promoção de lançamento pode encerrar a qualquer momento.
+          </p>
+          <div className="relative inline-block my-4">
+            <p className="text-4xl md:text-5xl font-bold text-destructive line-through decoration-destructive decoration-4">
+              DE R$ 147,00
             </p>
-            <p className="text-5xl md:text-7xl font-black text-primary mt-2 font-headline">
-              POR APENAS R$ 37,90
-            </p>
-            <p className="text-secondary-foreground/80 mt-2">(Pagamento único)</p>
           </div>
-          <ul className="space-y-4 text-left my-8 max-w-md mx-auto">
+        </div>
+
+        <div className="w-full max-w-md mx-auto bg-secondary rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
+          <div className="text-center">
+            <p className="font-bold uppercase text-foreground">POR APENAS</p>
+            <p className="text-6xl md:text-7xl font-black text-primary my-2">
+              R$ 37,90
+            </p>
+            <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
+          </div>
+
+          <div className="my-8 space-y-4">
             {features.map((feature, index) => (
-              <li key={index} className="flex items-center gap-4">
-                <Check className="h-6 w-6 text-primary flex-shrink-0" />
-                <span className="text-lg text-secondary-foreground">{feature}</span>
-              </li>
+              <div key={index}>
+                <div className="flex items-center gap-3">
+                  <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
+                  <span className="text-sm uppercase font-medium">{feature}</span>
+                </div>
+                <Separator className="bg-[#444444] mt-4" />
+              </div>
             ))}
-          </ul>
+            
+            {bonuses.map((bonus, index) => (
+               <div key={index}>
+                <div className="flex items-center gap-3">
+                    <Gift className="h-5 w-5 text-accent flex-shrink-0" />
+                    <span className="text-sm uppercase font-bold text-accent">{bonus}</span>
+                </div>
+                {index < bonuses.length -1 && <Separator className="bg-[#444444] mt-4" />}
+              </div>
+            ))}
+          </div>
+
           <Button
             size="lg"
-            className="w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            GARANTIR MEU ACESSO
+            GARANTIR O MEU AGORA
           </Button>
-          <p className="text-xs text-secondary-foreground/60 mt-4">
-            Compra segura. Acesso imediato e vitalício.
-          </p>
         </div>
       </div>
     </section>

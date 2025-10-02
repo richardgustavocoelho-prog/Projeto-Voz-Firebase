@@ -6,7 +6,7 @@ export function HeroSection() {
     <section
       id="hero"
       className="relative w-full flex items-center justify-center pt-20 pb-12"
-      style={{ backgroundColor: '#141414' }}
+      style={{ backgroundColor: '#1c1c1c' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         <div className="mb-8">

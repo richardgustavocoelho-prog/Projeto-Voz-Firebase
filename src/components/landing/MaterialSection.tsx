@@ -60,7 +60,7 @@ export function MaterialSection() {
                   />
                 </div>
                 <h3
-                  className={`text-lg font-bold uppercase mb-3 ${isGreenCard ? 'text-white' : 'text-black'}`}
+                  className={`text-lg font-bold uppercase mb-3 text-black`}
                 >
                   {card.title}
                 </h3>

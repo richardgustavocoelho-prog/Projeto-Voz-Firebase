@@ -64,16 +64,13 @@ export function ContentBlocks() {
           TENHA ACESSO:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {cardData.map((card, index) => {
+          {cardData.map((card) => {
             const image = getImage(card.id);
-            const isPrimary = index % 2 === 0;
 
             return (
               <Card 
                 key={card.id} 
-                className={`border-2 border-solid flex flex-col
-                  ${isPrimary ? 'bg-primary border-accent' : 'bg-secondary border-accent'}
-                `}
+                className="border-2 border-solid flex flex-col bg-secondary border-accent"
               >
                 <CardContent className="p-6 flex-grow flex flex-col">
                   {image && (
@@ -88,11 +85,11 @@ export function ContentBlocks() {
                       />
                     </div>
                   )}
-                  <h3 className={`text-lg font-bold uppercase mb-4 leading-tight ${isPrimary ? 'text-black' : 'text-accent'}`}>{card.title}</h3>
-                  <ul className={`space-y-2 flex-grow ${isPrimary ? 'text-black' : 'text-white'}`}>
+                  <h3 className="text-lg font-bold uppercase mb-4 leading-tight text-accent">{card.title}</h3>
+                  <ul className="space-y-2 flex-grow text-white">
                     {card.benefits.map((benefit, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <span className="text-accent font-bold mt-1">✅</span>
+                        <span className="text-primary font-bold mt-1">✅</span>
                         <span>{benefit}</span>
                       </li>
                     ))}

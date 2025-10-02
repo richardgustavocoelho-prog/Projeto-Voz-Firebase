@@ -1,13 +1,24 @@
 import { Button } from '@/components/ui/button';
+import Image from "next/image";
 
 export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-[80vh] md:min-h-screen flex items-center justify-center pt-24 pb-12"
+      className="relative w-full flex items-center justify-center pt-20 pb-12"
       style={{ backgroundColor: '#141414' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
+        <div className="mb-8">
+            <Image
+              src="https://i.imgur.com/O4w4GuK.png"
+              alt="VoiceStream Academy Logo"
+              width={400}
+              height={114} 
+              className="w-auto h-auto max-w-[300px] md:max-w-[400px]"
+              priority
+            />
+        </div>
         <div className="max-w-4xl space-y-6">
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline uppercase">
             <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?

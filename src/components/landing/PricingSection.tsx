@@ -29,7 +29,7 @@ export function PricingSection() {
     <section id="pricing" className="py-12 md:py-24 bg-white">
       <div className="container px-4 md:px-6 flex flex-col items-center">
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold uppercase text-black mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold uppercase text-primary mb-2">
             OFERTA ESPECIAL PARA GARANTIR HOJE!
           </h2>
           <p className="text-black/80">

@@ -55,8 +55,8 @@ export function MaterialSection() {
               >
                 <div className="mb-4">
                   <Star
-                    className={`h-10 w-10 ${isGreenCard ? 'text-accent' : 'text-white'}`}
-                    fill={isGreenCard ? 'hsl(var(--accent))' : '#FFFFFF'}
+                    className={`h-10 w-10 ${isGreenCard ? 'text-accent' : 'text-primary'}`}
+                    fill={isGreenCard ? 'hsl(var(--accent))' : 'hsl(var(--primary))'}
                   />
                 </div>
                 <h3

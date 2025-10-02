@@ -20,9 +20,9 @@ export function ForYouSection() {
           {cardData.map((text, index) => (
             <div
               key={index}
-              className="bg-secondary rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
+              className="bg-accent rounded-lg p-6 flex items-center justify-center text-center min-h-[120px]"
             >
-              <p className="text-secondary-foreground font-bold uppercase">{text}</p>
+              <p className="text-accent-foreground font-bold uppercase">{text}</p>
             </div>
           ))}
         </div>

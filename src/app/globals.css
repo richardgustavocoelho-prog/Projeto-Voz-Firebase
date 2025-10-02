@@ -10,31 +10,42 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 20 14% 4%;
-    --card: 0 0% 100%;
-    --card-foreground: 20 14% 4%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14% 4%;
-    --primary: 180 100% 33%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 20%;
-    --secondary-foreground: 0 0% 94%;
-    --muted: 210 16% 93%;
-    --muted-foreground: 210 8% 45%;
-    --accent: 35 100% 65%;
-    --accent-foreground: 210 10% 23%;
+    --background: 0 0% 0%; /* Preto Absoluto */
+    --foreground: 0 0% 100%; /* Branco Puro */
+    
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 145 58% 49%; /* Verde Esmeralda (#2ECC71) */
+    --primary-foreground: 0 0% 100%; /* Branco Puro */
+    
+    --secondary: 0 0% 10%; /* Carvão Escuro (#1A1A1A) */
+    --secondary-foreground: 0 0% 100%; /* Branco Puro */
+    
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 63%;
+    
+    --accent: 45 100% 50%; /* Dourado Rico (#FFC300) */
+    --accent-foreground: 0 0% 10%;
+    
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 15% 88%;
-    --input: 210 15% 88%;
-    --ring: 180 100% 33%;
+    
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 145 58% 49%; /* Verde Esmeralda (#2ECC71) */
+    
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    
     --radius: 0.5rem;
+    
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -44,31 +55,42 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
   .dark {
-    --background: 0 0% 10%;
-    --foreground: 0 0% 94%;
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 94%;
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 94%;
-    --primary: 180 100% 33%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 100%;
-    --secondary-foreground: 0 0% 13%;
-    --muted: 210 10% 28%;
-    --muted-foreground: 210 10% 65%;
-    --accent: 35 100% 65%;
-    --accent-foreground: 210 20% 98%;
+    --background: 0 0% 0%; /* Preto Absoluto */
+    --foreground: 0 0% 100%; /* Branco Puro */
+    
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 145 58% 49%; /* Verde Esmeralda (#2ECC71) */
+    --primary-foreground: 0 0% 100%; /* Branco Puro */
+    
+    --secondary: 0 0% 10%; /* Carvão Escuro (#1A1A1A) */
+    --secondary-foreground: 0 0% 100%; /* Branco Puro */
+    
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 63%;
+    
+    --accent: 45 100% 50%; /* Dourado Rico (#FFC300) */
+    --accent-foreground: 0 0% 10%;
+    
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 10% 28%;
-    --input: 210 10% 28%;
-    --ring: 180 100% 33%;
+    
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 145 58% 49%; /* Verde Esmeralda (#2ECC71) */
+    
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

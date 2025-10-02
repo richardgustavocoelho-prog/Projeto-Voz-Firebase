@@ -48,7 +48,7 @@ export function MaterialSection() {
             <div
               key={index}
               className={`rounded-2xl p-6 text-center flex flex-col items-center transition-all duration-300 transform hover:scale-105 
-                ${index % 2 === 0 ? 'bg-primary' : 'bg-accent'}
+                ${index % 2 === 0 ? 'bg-primary/90' : 'bg-accent/90'}
               `}
             >
               <div className="mb-4">

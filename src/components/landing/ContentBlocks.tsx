@@ -80,7 +80,7 @@ export function ContentBlocks() {
                         alt={image.description}
                         width={600}
                         height={450}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         data-ai-hint={image.imageHint}
                       />
                     </div>

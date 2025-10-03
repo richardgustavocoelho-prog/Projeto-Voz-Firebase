@@ -1,5 +1,6 @@
 "use client";
 import { Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const cardData = [
   {
@@ -72,6 +73,14 @@ export function MaterialSection() {
               </div>
             );
           })}
+        </div>
+        <div className="mt-12 text-center">
+          <Button
+            size="lg"
+            className="w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2"
+          >
+            GARANTIR MEU PACK AGORA
+          </Button>
         </div>
       </div>
     </section>

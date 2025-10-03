@@ -15,7 +15,7 @@ export function BonusSection() {
         <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {/* Card 1: Modelos de Contratos */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.7)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
@@ -41,7 +41,7 @@ export function BonusSection() {
 
           {/* Card 2: Planner Digital */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.7)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
@@ -67,7 +67,7 @@ export function BonusSection() {
 
           {/* Card 3: Biblioteca de Repertório */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.7)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
@@ -93,7 +93,7 @@ export function BonusSection() {
 
           {/* Card 4: Mini Guia de Didática */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.7)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"

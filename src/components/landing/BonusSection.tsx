@@ -23,7 +23,7 @@ export function BonusSection() {
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
-                  src="https://i.imgur.com/NVPo8Po.jpeg"
+                  src="https://i.imgur.com/TRURAol.jpeg"
                   alt="Ilustração de um contrato em uma prancheta"
                   fill
                   className="object-contain"
@@ -75,7 +75,7 @@ export function BonusSection() {
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
-                  src="https://i.imgur.com/ootwwV2.png"
+                  src="https://i.imgur.com/vFQ0OjK.png"
                   alt="Ilustração de uma biblioteca de música"
                   fill
                   className="object-contain"
@@ -101,7 +101,7 @@ export function BonusSection() {
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
-                  src="https://i.imgur.com/1o4Qm9P.jpeg"
+                  src="https://i.imgur.com/g9fzdwB.jpeg"
                   alt="Ilustração de um guia ou manual"
                   fill
                   className="object-contain"

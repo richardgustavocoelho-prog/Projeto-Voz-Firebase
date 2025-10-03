@@ -70,21 +70,21 @@ export function ContentBlocks() {
             return (
               <Card 
                 key={card.id} 
-                className="border-2 border-solid flex flex-col bg-secondary border-accent"
+                className="border-2 border-solid flex flex-col bg-secondary border-accent rounded-2xl overflow-hidden"
               >
+                {image && (
+                  <div className="bg-white p-4">
+                    <Image
+                      src={image.imageUrl}
+                      alt={image.description}
+                      width={600}
+                      height={450}
+                      className="w-full h-auto object-contain"
+                      data-ai-hint={image.imageHint}
+                    />
+                  </div>
+                )}
                 <CardContent className="p-6 flex-grow flex flex-col">
-                  {image && (
-                    <div className="mb-6 rounded-md overflow-hidden aspect-video">
-                      <Image
-                        src={image.imageUrl}
-                        alt={image.description}
-                        width={600}
-                        height={450}
-                        className="w-full h-full object-contain"
-                        data-ai-hint={image.imageHint}
-                      />
-                    </div>
-                  )}
                   <h3 className="text-lg font-bold uppercase mb-4 leading-tight text-accent">{card.title}</h3>
                   <ul className="space-y-2 flex-grow text-white">
                     {card.benefits.map((benefit, idx) => (

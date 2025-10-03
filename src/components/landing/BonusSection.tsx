@@ -95,7 +95,7 @@ export function BonusSection() {
           <Card 
             className="overflow-hidden shadow-xl transform transition-transform duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0"
           >
-            <CardContent 
+            <CardContent Go
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
               style={{ backgroundColor: '#fc8404' }}
             >

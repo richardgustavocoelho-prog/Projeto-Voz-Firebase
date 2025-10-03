@@ -79,7 +79,7 @@ export function MaterialSection() {
             size="lg"
             className="w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2"
           >
-            GARANTIR MINHAS AULAS AGORA
+            QUERO O MATERIAL COMPLETO
           </Button>
         </div>
       </div>

@@ -78,13 +78,13 @@ export function ContentBlocks() {
                 className="border-2 border-solid flex flex-col bg-secondary border-accent rounded-2xl overflow-hidden"
               >
                 {image && (
-                  <div className="p-4" style={{ backgroundColor: card.bgColor }}>
+                  <div className="relative w-full" style={{ backgroundColor: card.bgColor }}>
                     <Image
                       src={image.imageUrl}
                       alt={image.description}
                       width={600}
                       height={450}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-auto object-cover"
                       data-ai-hint={image.imageHint}
                     />
                   </div>

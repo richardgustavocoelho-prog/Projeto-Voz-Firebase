@@ -13,6 +13,7 @@ const cardData = [
       "Tudo organizado em módulos temáticos: postura, respiração, projeção, afinação, vibrato, interpretação e mais.",
       "Linguagem acessível, didática moderna e 100% aplicável.",
     ],
+    bgColor: "#E5F0E6",
   },
   {
     id: "study-plan",
@@ -22,6 +23,7 @@ const cardData = [
       "Estrutura pensada para ser usada em aulas presenciais, online ou para autoestudo.",
       "Cada aula leva em média 30 minutos e já vem com tempo estimado para cada etapa.",
     ],
+    bgColor: "#E4EBEF",
   },
   {
     id: "training-tools",
@@ -31,6 +33,7 @@ const cardData = [
       "Exercícios práticos com vocalizes e sugestões de uso de apps gratuitos.",
       "Atividades de autocorreção, percepção auditiva e consciência corporal.",
     ],
+    bgColor: "#FFF3D6",
   },
   {
     id: "repertoire",
@@ -40,6 +43,7 @@ const cardData = [
       "Aulas que ensinam como usar o microfone com técnica e estilo.",
       "Módulo de interpretação musical: cante com verdade, não só com técnica.",
     ],
+    bgColor: "#C8E0E7",
   },
   {
     id: "teaching-didactics",
@@ -49,6 +53,7 @@ const cardData = [
       "Pode ser usado como currículo completo em escolas de música.",
       "Economia de tempo: não precisa planejar aula por aula.",
     ],
+    bgColor: "#F7E2C4",
   }
 ];
 
@@ -73,7 +78,7 @@ export function ContentBlocks() {
                 className="border-2 border-solid flex flex-col bg-secondary border-accent rounded-2xl overflow-hidden"
               >
                 {image && (
-                  <div className="bg-white p-4">
+                  <div className="p-4" style={{ backgroundColor: card.bgColor }}>
                     <Image
                       src={image.imageUrl}
                       alt={image.description}

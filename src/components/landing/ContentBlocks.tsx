@@ -13,7 +13,7 @@ const cardData = [
       "Tudo organizado em módulos temáticos: postura, respiração, projeção, afinação, vibrato, interpretação e mais.",
       "Linguagem acessível, didática moderna e 100% aplicável.",
     ],
-    bgColor: "#E5F0E6",
+    bgColor: "#E4E1C0",
   },
   {
     id: "study-plan",
@@ -23,7 +23,7 @@ const cardData = [
       "Estrutura pensada para ser usada em aulas presenciais, online ou para autoestudo.",
       "Cada aula leva em média 30 minutos e já vem com tempo estimado para cada etapa.",
     ],
-    bgColor: "#E4EBEF",
+    bgColor: "#2C3E4C",
   },
   {
     id: "training-tools",

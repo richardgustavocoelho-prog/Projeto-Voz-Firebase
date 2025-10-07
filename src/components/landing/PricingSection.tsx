@@ -38,6 +38,7 @@ export function PricingSection() {
   const [isFinalOfferPopupOpen, setIsFinalOfferPopupOpen] = useState(false);
 
   const handleDeclineUpsell = () => {
+    setIsUpsellPopupOpen(false);
     setIsFinalOfferPopupOpen(true);
   };
 
@@ -93,12 +94,6 @@ export function PricingSection() {
 
             {/* Second Card (Premium) */}
              <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                <div className="bg-gradient-to-r from-primary to-accent text-white text-sm font-bold uppercase px-6 py-2 rounded-full shadow-lg flex items-center gap-2">
-                  <Star className="w-4 h-4" />
-                  Oferta Recomendada
-                </div>
-              </div>
               <div className="bg-black/40 rounded-[1.25rem] p-6 md:p-8 flex flex-col text-foreground h-full backdrop-blur-sm">
                 <div className="text-center mb-6">
                   <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>

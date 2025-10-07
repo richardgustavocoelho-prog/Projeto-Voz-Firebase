@@ -1,8 +1,15 @@
 "use client";
 
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Gift } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
+import { UpsellPopup } from "./UpsellPopup";
+
+const firstCardFeatures = [
+    "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
+    "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
+];
 
 const features = [
   "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
@@ -18,11 +25,6 @@ const features = [
   "ATUALIZAÇÕES GRÁTIS",
 ];
 
-const firstCardFeatures = [
-    "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
-    "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
-];
-
 const bonuses = [
   "BÔNUS: MODELOS DE CONTRATO PRÉ-PRONTOS",
   "BÔNUS: PLANNER DIGITAL PARA PROFESSORES DE MÚSICA",
@@ -31,95 +33,101 @@ const bonuses = [
 ];
 
 export function PricingSection() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
   return (
-    <section id="pricing" className="py-12 md:py-24 bg-white">
-      <div className="container px-4 md:px-6 flex flex-col items-center">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold uppercase text-black mb-2">
-            <span className="text-primary">OFERTA ESPECIAL</span> PARA GARANTIR HOJE!
-          </h2>
-          <p className="text-black/80">
-            Promoção de lançamento pode encerrar a qualquer momento.
-          </p>
-          <div className="relative inline-block my-4">
-            <p className="text-4xl md:text-5xl font-bold text-destructive-alt line-through decoration-destructive-alt decoration-4">
-              DE R$ 147,00
+    <>
+      <section id="pricing" className="py-12 md:py-24 bg-white">
+        <div className="container px-4 md:px-6 flex flex-col items-center">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold uppercase text-black mb-2">
+              <span className="text-primary">OFERTA ESPECIAL</span> PARA GARANTIR HOJE!
+            </h2>
+            <p className="text-black/80">
+              Promoção de lançamento pode encerrar a qualquer momento.
             </p>
+            <div className="relative inline-block my-4">
+              <p className="text-4xl md:text-5xl font-bold text-destructive-alt line-through decoration-destructive-alt decoration-4">
+                DE R$ 147,00
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl mx-auto">
+            {/* First Card */}
+            <div className="w-full bg-secondary rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
+              <div className="text-center">
+                <p className="font-bold uppercase text-foreground">POR APENAS</p>
+                <p className="text-6xl md:text-7xl font-black text-primary my-2">
+                  R$ 3,90
+                </p>
+                <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
+              </div>
+
+              <div className="my-8 space-y-4 flex-grow">
+                {firstCardFeatures.map((feature, index) => (
+                  <div key={index}>
+                    <div className="flex items-center gap-3">
+                      <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
+                      <span className="text-sm uppercase font-medium">{feature}</span>
+                    </div>
+                    {index < firstCardFeatures.length -1 && <Separator className="bg-[#444444] mt-4" />}
+                  </div>
+                ))}
+              </div>
+
+              <Button
+                size="lg"
+                className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                onClick={() => setIsPopupOpen(true)}
+              >
+                QUERO MINHAS AULAS AGORA!
+              </Button>
+            </div>
+
+            {/* Second Card */}
+            <div className="w-full bg-secondary rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
+              <div className="text-center">
+                <p className="font-bold uppercase text-foreground">POR APENAS</p>
+                <p className="text-6xl md:text-7xl font-black text-primary my-2">
+                  R$ 19,90
+                </p>
+                <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
+              </div>
+
+              <div className="my-8 space-y-4">
+                {features.map((feature, index) => (
+                  <div key={index}>
+                    <div className="flex items-center gap-3">
+                      <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
+                      <span className="text-sm uppercase font-medium">{feature}</span>
+                    </div>
+                    <Separator className="bg-[#444444] mt-4" />
+                  </div>
+                ))}
+                
+                {bonuses.map((bonus, index) => (
+                   <div key={index}>
+                    <div className="flex items-center gap-3">
+                        <Gift className="h-5 w-5 text-accent flex-shrink-0" />
+                        <span className="text-sm uppercase font-bold text-accent">{bonus}</span>
+                    </div>
+                    {index < bonuses.length -1 && <Separator className="bg-[#444444] mt-4" />}
+                  </div>
+                ))}
+              </div>
+
+              <Button
+                size="lg"
+                className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              >
+                QUERO MINHAS AULAS AGORA!
+              </Button>
+            </div>
           </div>
         </div>
-
-        <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl mx-auto">
-          {/* First Card */}
-          <div className="w-full bg-secondary rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
-            <div className="text-center">
-              <p className="font-bold uppercase text-foreground">POR APENAS</p>
-              <p className="text-6xl md:text-7xl font-black text-primary my-2">
-                R$ 3,90
-              </p>
-              <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
-            </div>
-
-            <div className="my-8 space-y-4 flex-grow">
-              {firstCardFeatures.map((feature, index) => (
-                <div key={index}>
-                  <div className="flex items-center gap-3">
-                    <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span className="text-sm uppercase font-medium">{feature}</span>
-                  </div>
-                  {index < firstCardFeatures.length -1 && <Separator className="bg-[#444444] mt-4" />}
-                </div>
-              ))}
-            </div>
-
-            <Button
-              size="lg"
-              className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-            >
-              QUERO MINHAS AULAS AGORA!
-            </Button>
-          </div>
-
-          {/* Second Card */}
-          <div className="w-full bg-secondary rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
-            <div className="text-center">
-              <p className="font-bold uppercase text-foreground">POR APENAS</p>
-              <p className="text-6xl md:text-7xl font-black text-primary my-2">
-                R$ 19,90
-              </p>
-              <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
-            </div>
-
-            <div className="my-8 space-y-4">
-              {features.map((feature, index) => (
-                <div key={index}>
-                  <div className="flex items-center gap-3">
-                    <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
-                    <span className="text-sm uppercase font-medium">{feature}</span>
-                  </div>
-                  <Separator className="bg-[#444444] mt-4" />
-                </div>
-              ))}
-              
-              {bonuses.map((bonus, index) => (
-                 <div key={index}>
-                  <div className="flex items-center gap-3">
-                      <Gift className="h-5 w-5 text-accent flex-shrink-0" />
-                      <span className="text-sm uppercase font-bold text-accent">{bonus}</span>
-                  </div>
-                  {index < bonuses.length -1 && <Separator className="bg-[#444444] mt-4" />}
-                </div>
-              ))}
-            </div>
-
-            <Button
-              size="lg"
-              className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-            >
-              QUERO MINHAS AULAS AGORA!
-            </Button>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+      <UpsellPopup isOpen={isPopupOpen} onOpenChange={setIsPopupOpen} />
+    </>
   );
 }

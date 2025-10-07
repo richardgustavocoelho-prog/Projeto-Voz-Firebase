@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Check, ChevronRight, Gift, Star } from "lucide-react";
+import { Check, ChevronRight, Gift } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { UpsellPopup } from "./UpsellPopup";
 import { FinalOfferPopup } from "./FinalOfferPopup";
@@ -97,8 +97,6 @@ export function PricingSection() {
                 
                 <div className="p-6 md:p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">
-                    <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
-                    
                     <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#00FF87', textShadow: '0 0 15px rgba(0, 255, 135, 0.6)'}}>
                       R$ 19,90
                     </p>

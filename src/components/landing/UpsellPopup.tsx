@@ -43,7 +43,7 @@ export function UpsellPopup({ isOpen, onOpenChange }: UpsellPopupProps) {
             </p>
 
             <div className="bg-black/40 rounded-2xl p-4 my-6 border border-gray-700">
-              <p className="text-lg line-through text-gray-400 decoration-[#FF4D4D]">De R$ 37,90</p>
+              <p className="text-lg line-through text-gray-400 decoration-[#FF4D4D]">De R$ 147,90</p>
               <p className="text-5xl font-black my-1" style={{ color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.6)' }}>
                 R$ 9,90
               </p>

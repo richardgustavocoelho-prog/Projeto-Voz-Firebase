@@ -39,12 +39,11 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
             </h2>
 
             <div className="bg-black/40 rounded-2xl p-4 my-6 border border-gray-700">
-              <p className="text-lg line-through text-gray-400 decoration-[#FF4D4D]">De R$ 147,90</p>
+              <p className="text-lg line-through text-gray-400 decoration-[#FF4D4D]">DE R$ 147,90</p>
               <p className="text-5xl font-black my-1" style={{ color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.6)' }}>
                 R$ 6,90
               </p>
               <p className="text-sm text-gray-400">acesso imediato</p>
-              <p className="text-xs italic text-gray-300">acesso completo + todos os bônus liberados</p>
             </div>
 
             <div className="text-left my-6 space-y-3">

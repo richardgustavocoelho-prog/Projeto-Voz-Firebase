@@ -6,6 +6,7 @@ import { MaterialSection } from '@/components/landing/MaterialSection';
 import { ForYouSection } from '@/components/landing/ForYouSection';
 import { BonusSection } from '@/components/landing/BonusSection';
 import { PricingSection } from '@/components/landing/PricingSection';
+import { FaqSection } from '@/components/landing/FaqSection';
 import { Footer } from '@/components/landing/Footer';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <ForYouSection />
         <BonusSection />
         <PricingSection />
+        <FaqSection />
       </main>
       <Footer />
     </div>

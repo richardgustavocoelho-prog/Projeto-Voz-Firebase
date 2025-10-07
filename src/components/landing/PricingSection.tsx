@@ -89,7 +89,7 @@ export function PricingSection() {
             {/* Second Card (Premium) */}
             <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
                <div className="w-full text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))', borderTopLeftRadius: '1.5rem', borderTopRightRadius: '1.5rem' }}>
-                <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base">
+                <p className="font-extrabold text-accent uppercase tracking-widest text-sm md:text-base">
                   ⚡ ÚLTIMA CHANCE ⚡
                 </p>
               </div>
@@ -97,6 +97,7 @@ export function PricingSection() {
                 
                 <div className="p-6 md:p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">
+                    <p className="text-accent font-extrabold uppercase tracking-widest mb-2 animate-pulsate-gold text-base md:text-lg" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)' }}>⚡ ACESSO PREMIUM ⚡</p>
                     <p className="text-2xl line-through text-red-500/80 decoration-red-500">De R$ 147,90</p>
                     <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#00FF87', textShadow: '0 0 15px rgba(0, 255, 135, 0.6)'}}>
                       R$ 19,90

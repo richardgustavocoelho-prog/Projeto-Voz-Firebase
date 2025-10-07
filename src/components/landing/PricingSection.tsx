@@ -52,16 +52,11 @@ export function PricingSection() {
             <p className="text-black/80">
               Promoção de lançamento pode encerrar a qualquer momento.
             </p>
-            <div className="relative inline-block my-4">
-              <p className="text-4xl md:text-5xl font-bold text-destructive-alt line-through decoration-destructive-alt decoration-4">
-                DE R$ 147,90
-              </p>
-            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl mx-auto items-start">
             {/* First Card */}
-            <div className="w-full bg-[#141414] rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
+            <div className="w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
               <div className="text-center">
                 <p className="font-bold uppercase text-foreground">POR APENAS</p>
                 <p className="text-6xl md:text-7xl font-black text-primary my-2">
@@ -103,7 +98,7 @@ export function PricingSection() {
                 <div className="p-6 md:p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">
                     <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
-                    <p className="text-2xl line-through text-[#FF4D4D] decoration-[#FF4D4D] mt-4">De R$ 147,90</p>
+                    
                     <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.4)'}}>
                       R$ 19,90
                     </p>

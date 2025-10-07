@@ -24,13 +24,10 @@ export function UpsellPopup({ isOpen, onOpenChange }: UpsellPopupProps) {
         className="p-0 border-0 max-w-sm w-full"
         style={{ backgroundColor: '#141414', borderRadius: '1.5rem' }}
         onInteractOutside={(e) => e.preventDefault()}
+        hideCloseButton={true}
       >
         <DialogTitle className="sr-only">Oferta Especial</DialogTitle>
         <div className="w-full text-white rounded-3xl overflow-hidden shadow-2xl" style={{ boxShadow: '0 0 40px rgba(249, 178, 51, 0.3)' }}>
-          
-          <div className="bg-[#1C1C1C] text-center p-2 rounded-t-3xl">
-            <p className="text-xs">Você clicou na oferta de R$ 3,90 — liberamos uma condição especial.</p>
-          </div>
           
           <div className="bg-[#FF4D4D] text-center p-2">
             <p className="font-bold text-sm">⏰ Oferta expira em 2 minutos!</p>

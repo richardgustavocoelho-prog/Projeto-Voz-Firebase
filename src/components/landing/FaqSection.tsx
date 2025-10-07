@@ -26,7 +26,7 @@ const faqData = [
   },
 {
     question: "E se eu não gostar do conteúdo?",
-    answer: "Você tem 7 dias de garantia total. Se por qualquer motivo o material não atender suas expectativas, basta solicitar o reembolso — simples, rápido e sem burocracia.",
+    answer: "Você tem 30 dias de garantia total. Se por qualquer motivo o material não atender suas expectativas, basta solicitar o reembolso — simples, rápido e sem burocracia.",
   },
 ];
 

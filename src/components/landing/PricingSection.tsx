@@ -22,7 +22,7 @@ const features = [
   "CRONOGRAMA PASSO A PASSO",
   "EM PDF PARA FACILITAR CONSULTA",
   "ACESSO VITALÍCIO",
-  "GARANTIA DE 7 DIAS",
+  "GARANTIA DE 30 DIAS",
 ];
 
 const bonuses = [

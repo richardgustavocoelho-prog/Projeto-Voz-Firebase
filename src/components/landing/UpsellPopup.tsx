@@ -1,6 +1,7 @@
+
 "use client";
 
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
 const benefits = [
@@ -24,6 +25,7 @@ export function UpsellPopup({ isOpen, onOpenChange }: UpsellPopupProps) {
         style={{ backgroundColor: '#141414', borderRadius: '1.5rem' }}
         onInteractOutside={(e) => e.preventDefault()}
       >
+        <DialogTitle className="sr-only">Oferta Especial</DialogTitle>
         <div className="w-full text-white rounded-3xl overflow-hidden shadow-2xl" style={{ boxShadow: '0 0 40px rgba(249, 178, 51, 0.3)' }}>
           
           <div className="bg-[#1C1C1C] text-center p-2 rounded-t-3xl">

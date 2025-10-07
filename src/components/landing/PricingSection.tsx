@@ -93,15 +93,15 @@ export function PricingSection() {
             </div>
 
             {/* Second Card (Premium) */}
-             <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
+            <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
               <div className="bg-black/40 rounded-[1.25rem] p-0 flex flex-col text-foreground h-full backdrop-blur-sm overflow-hidden">
 
                 <div className="w-full bg-[#141414] text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))' }}>
-                  <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
-                  ⚡ ÚLTIMA CHANCE ⚡
+                   <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
+                    ⚡ ÚLTIMA CHANCE ⚡
                   </p>
                 </div>
-
+                
                 <div className="p-6 md:p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">
                     <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
@@ -120,6 +120,11 @@ export function PricingSection() {
                       </div>
                     ))}
                     <Separator className="my-4 border-gray-700"/>
+                    <div className="text-center mb-3">
+                        <h4 className="text-lg font-extrabold uppercase text-accent animate-pulsate-gold" style={{ textShadow: '0 0 15px rgba(249,178,51,0.6)'}}>
+                            🎁 BÔNUS
+                        </h4>
+                    </div>
                     {bonuses.map((bonus, index) => (
                        <div key={index} className="flex items-start gap-3">
                           <Gift className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />

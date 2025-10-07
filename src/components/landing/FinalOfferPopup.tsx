@@ -54,12 +54,12 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
             </div>
 
             <Button
-              className="w-full font-bold text-lg uppercase tracking-wider h-14 rounded-xl transition-all duration-300
+              className="w-full font-bold text-lg uppercase tracking-wider h-auto min-h-[3.5rem] rounded-xl transition-all duration-300
                          bg-gradient-to-b from-[#30C04E] to-[#1F8E3E] text-white
                          border-2 border-[#10742D]
                          shadow-[0_4px_15px_rgba(0,0,0,0.6)]
                          hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(40,167,69,0.4)]
-                         relative overflow-hidden group"
+                         relative overflow-hidden group py-3 px-4"
               style={{ textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)' }}
             >
               <span 
@@ -70,8 +70,9 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
                 className="absolute -top-px left-1/2 -translate-x-1/2 w-3/4 h-px opacity-80"
                 style={{ background: 'linear-gradient(to right, transparent, #52FF8B, transparent)'}}
               ></span>
-              <span className="relative">
-                PEGAR MINHA ÚLTIMA CHANCE AGORA
+              <span className="relative flex flex-col items-center justify-center">
+                <span>PEGAR MINHA ÚLTIMA CHANCE</span>
+                <span>AGORA</span>
               </span>
             </Button>
             

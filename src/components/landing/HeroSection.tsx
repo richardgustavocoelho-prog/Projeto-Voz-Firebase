@@ -1,6 +1,8 @@
+"use client";
+
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
-import { WistiaVideo } from './WistiaVideo';
+import Script from 'next/script';
 
 export function HeroSection() {
   return (
@@ -25,7 +27,18 @@ export function HeroSection() {
             <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?
           </h1>
 
-          <WistiaVideo />
+          <div className="vsl-container">
+              <div className="wistia_responsive_padding">
+                <div className="wistia_responsive_wrapper">
+                  <div
+                    className="wistia_embed wistia_async_5f16lbgntl videoFoam=true"
+                  >&nbsp;</div>
+                </div>
+              </div>
+          </div>
+          <Script src="https://fast.wistia.com/embed/medias/5f16lbgntl.jsonp" strategy="afterInteractive" />
+          <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="afterInteractive" />
+
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             São mais de 600 aulas prontas e estruturadas para você aplicar

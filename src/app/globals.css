@@ -115,6 +115,9 @@ body {
   .animate-pulsate-gold {
     animation: pulsate-gold 1.8s infinite;
   }
+  .animate-pulsate-green {
+    animation: pulsate-green 1.8s ease-in-out infinite;
+  }
 }
 
 @keyframes pulsate-gold {
@@ -125,5 +128,16 @@ body {
   50% {
     text-shadow: 0 0 20px rgba(249,178,51,1);
     opacity: 1;
+  }
+}
+
+@keyframes pulsate-green {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgba(0, 255, 135, 0.6);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0, 255, 135, 0.9);
   }
 }

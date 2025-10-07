@@ -88,8 +88,8 @@ export function PricingSection() {
 
             {/* Second Card (Premium) */}
             <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
-              <div className="w-full bg-[#141414] text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))' }}>
-                <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
+               <div className="w-full text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))', borderTopLeftRadius: '1.5rem', borderTopRightRadius: '1.5rem' }}>
+                <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base">
                   ⚡ ÚLTIMA CHANCE ⚡
                 </p>
               </div>
@@ -99,7 +99,7 @@ export function PricingSection() {
                   <div className="text-center mb-6">
                     <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
                     
-                    <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.4)'}}>
+                    <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#00FF87', textShadow: '0 0 15px rgba(0, 255, 135, 0.6)'}}>
                       R$ 19,90
                     </p>
                     <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
@@ -128,7 +128,8 @@ export function PricingSection() {
 
                   <Button
                     size="lg"
-                    className="w-full mt-auto bg-green-600 hover:bg-green-700 text-white font-bold text-lg px-10 py-7 shadow-lg hover:shadow-green-500/50 transition-all duration-300 transform hover:-translate-y-1 rounded-xl border-2 border-green-800"
+                    className="w-full mt-auto font-bold text-lg px-10 py-7 rounded-xl border-2 border-green-800 animate-pulsate-green"
+                    style={{ backgroundColor: '#00FF87', color: 'white' }}
                   >
                     QUERO O PACK COMPLETO
                   </Button>

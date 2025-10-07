@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
+import { WistiaVideo } from './WistiaVideo';
 
 export function HeroSection() {
   return (
@@ -23,6 +24,9 @@ export function HeroSection() {
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline uppercase">
             <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?
           </h1>
+
+          <WistiaVideo />
+
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             São mais de 600 aulas prontas e estruturadas para você aplicar
             com seus alunos, do iniciante ao avançado, e otimizar seu tempo.

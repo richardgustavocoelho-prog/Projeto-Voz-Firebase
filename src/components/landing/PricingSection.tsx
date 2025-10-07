@@ -56,7 +56,7 @@ export function PricingSection() {
             <div className="text-center">
               <p className="font-bold uppercase text-foreground">POR APENAS</p>
               <p className="text-6xl md:text-7xl font-black text-primary my-2">
-                R$ 19,90
+                R$ 3,90
               </p>
               <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
             </div>

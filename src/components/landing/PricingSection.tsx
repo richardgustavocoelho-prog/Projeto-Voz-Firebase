@@ -20,6 +20,7 @@ const features = [
 
 const firstCardFeatures = [
     "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
+    "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
 ];
 
 const bonuses = [

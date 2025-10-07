@@ -43,6 +43,7 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
               <p className="text-5xl font-black my-1" style={{ color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.6)' }}>
                 R$ 6,90
               </p>
+              <p className="text-sm text-gray-400">acesso imediato</p>
               <p className="text-xs italic text-gray-300">acesso completo + todos os bônus liberados</p>
             </div>
 

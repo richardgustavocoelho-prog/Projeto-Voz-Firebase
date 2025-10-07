@@ -111,6 +111,39 @@ body {
   }
 }
 
+@layer components {
+  .vsl-container {
+    @apply flex justify-center items-center my-10 mx-auto w-full max-w-3xl rounded-xl overflow-hidden shadow-lg;
+    box-shadow: 0 0 25px rgba(249,178,51,0.15);
+    background-color: #141414;
+  }
+  .wistia_responsive_padding {
+    padding: 56.25% 0 0 0;
+    position: relative;
+    width: 100%;
+  }
+  .wistia_responsive_wrapper {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .wistia_embed {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .vsl-container {
+      max-width: 95%;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+
 @layer utilities {
   .animate-pulsate-gold {
     animation: pulsate-gold 1.8s infinite;

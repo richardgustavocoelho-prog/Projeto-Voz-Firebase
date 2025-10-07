@@ -21,8 +21,7 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent 
-        className="p-0 border-0 max-w-sm w-full"
-        style={{ backgroundColor: '#141414', borderRadius: '1.5rem', boxShadow: '0 0 40px rgba(249, 178, 51, 0.3)' }}
+        className="p-0 border-0 max-w-sm w-full bg-[#141414] rounded-3xl shadow-[0_0_40px_rgba(249,178,51,0.3)]"
         onInteractOutside={(e) => e.preventDefault()}
         hideCloseButton={true}
       >
@@ -56,21 +55,24 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
             </div>
 
             <Button
-              className="w-full font-bold text-lg h-14 rounded-xl border-2 border-transparent hover:border-[#F9B233]"
-              style={{ 
-                backgroundColor: '#28A745', 
-                color: 'white', 
-                boxShadow: '0 0 15px rgba(40, 167, 69, 0.5)',
-                transition: 'background-color 0.3s, box-shadow 0.3s'
-              }}
-              onMouseOver={(e) => {
-                e.currentTarget.style.backgroundColor = '#1F8E3E';
-              }}
-              onMouseOut={(e) => {
-                e.currentTarget.style.backgroundColor = '#28A745';
-              }}
+              className="w-full font-bold text-lg uppercase tracking-wider h-14 rounded-xl transition-all duration-300
+                         bg-gradient-to-b from-[#30B94E] to-[#23963D] text-white
+                         border-2 border-[#1F8E3E]
+                         shadow-[0_4px_15px_rgba(0,0,0,0.6)]
+                         hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(0,0,0,0.7)]
+                         relative overflow-hidden group"
             >
-              PEGAR MINHA ÚLTIMA CHANCE AGORA
+              <span 
+                className="absolute top-0 left-0 w-full h-full opacity-20"
+                style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.4), transparent)'}}
+              ></span>
+               <span 
+                className="absolute top-0 left-0 w-full h-px opacity-60"
+                style={{ background: 'linear-gradient(to right, transparent, #F9B233, transparent)'}}
+              ></span>
+              <span className="relative">
+                PEGAR MINHA ÚLTIMA CHANCE AGORA
+              </span>
             </Button>
             
             <p className="text-gray-400 text-xs italic mt-4">

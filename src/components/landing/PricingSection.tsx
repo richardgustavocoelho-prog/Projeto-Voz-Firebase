@@ -59,7 +59,7 @@ export function PricingSection() {
               <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
             </div>
 
-            <div className="my-8 space-y-4">
+            <div className="my-8 space-y-4 flex-grow">
               {firstCardFeatures.map((feature, index) => (
                 <div key={index}>
                   <div className="flex items-center gap-3">

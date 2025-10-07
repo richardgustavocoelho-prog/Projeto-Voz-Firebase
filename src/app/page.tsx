@@ -33,12 +33,13 @@ export default function Home() {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 auto 40px auto;
+            margin: 40px auto;
             width: 100%;
             max-width: 800px;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 0 25px rgba(249,178,51,0.15);
+            background-color: #141414;
           }
 
           @media (max-width: 768px) {

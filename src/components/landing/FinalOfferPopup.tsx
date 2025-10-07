@@ -5,11 +5,11 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
 const benefits = [
-  "600 aulas prontas e estruturadas",
-  "Plano de estudo de 12 meses",
-  "Exercícios com microfone e repertório",
+  "600 aulas prontas e estruturadas em PDF",
+  "Plano de estudo completo de 12 meses",
+  "Exercícios práticos com repertório e microfone",
   "Didática moderna validada por professores",
-  "Acesso vitalício + atualizações grátis",
+  "Bônus exclusivos liberados",
 ];
 
 type FinalOfferPopupProps = {

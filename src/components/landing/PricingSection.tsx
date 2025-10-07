@@ -58,6 +58,7 @@ export function PricingSection() {
             {/* First Card */}
             <div className="w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
               <div className="text-center">
+                <p className="text-base uppercase font-semibold tracking-wider text-white opacity-80 mb-2">ACESSO BÁSICO</p>
                 <p className="text-6xl md:text-7xl font-black text-primary my-2">
                   R$ 3,90
                 </p>

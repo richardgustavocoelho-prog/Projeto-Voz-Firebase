@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
@@ -56,19 +55,20 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
 
             <Button
               className="w-full font-bold text-lg uppercase tracking-wider h-14 rounded-xl transition-all duration-300
-                         bg-gradient-to-b from-[#30B94E] to-[#23963D] text-white
-                         border-2 border-[#1F8E3E]
+                         bg-gradient-to-b from-[#30C04E] to-[#1F8E3E] text-white
+                         border-2 border-[#10742D]
                          shadow-[0_4px_15px_rgba(0,0,0,0.6)]
-                         hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(0,0,0,0.7)]
+                         hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(40,167,69,0.4)]
                          relative overflow-hidden group"
+              style={{ textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)' }}
             >
               <span 
                 className="absolute top-0 left-0 w-full h-full opacity-20"
-                style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.4), transparent)'}}
+                style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.3), transparent)'}}
               ></span>
                <span 
-                className="absolute top-0 left-0 w-full h-px opacity-60"
-                style={{ background: 'linear-gradient(to right, transparent, #F9B233, transparent)'}}
+                className="absolute -top-px left-1/2 -translate-x-1/2 w-3/4 h-px opacity-80"
+                style={{ background: 'linear-gradient(to right, transparent, #52FF8B, transparent)'}}
               ></span>
               <span className="relative">
                 PEGAR MINHA ÚLTIMA CHANCE AGORA

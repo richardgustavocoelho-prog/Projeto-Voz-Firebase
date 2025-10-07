@@ -94,38 +94,47 @@ export function PricingSection() {
 
             {/* Second Card (Premium) */}
              <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
-              <div className="bg-black/40 rounded-[1.25rem] p-6 md:p-8 flex flex-col text-foreground h-full backdrop-blur-sm">
-                <div className="text-center mb-6">
-                  <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
-                  <p className="text-2xl line-through text-[#FF4D4D] decoration-[#FF4D4D] mt-4">De R$ 147,90</p>
-                  <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.4)'}}>
-                    R$ 19,90
+              <div className="bg-black/40 rounded-[1.25rem] p-0 flex flex-col text-foreground h-full backdrop-blur-sm overflow-hidden">
+
+                <div className="w-full bg-[#141414] text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))' }}>
+                  <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
+                  ⚡ ÚLTIMA CHANCE ⚡
                   </p>
-                  <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
                 </div>
 
-                <div className="my-6 space-y-3 flex-grow">
-                  {features.map((feature, index) => (
-                    <div key={index} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-sm uppercase font-medium text-white/90">{feature}</span>
-                    </div>
-                  ))}
-                  <Separator className="my-4 border-gray-700"/>
-                  {bonuses.map((bonus, index) => (
-                     <div key={index} className="flex items-start gap-3">
-                        <Gift className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                        <span className="text-sm uppercase font-bold text-accent">{bonus}</span>
-                    </div>
-                  ))}
-                </div>
+                <div className="p-6 md:p-8 flex flex-col flex-grow">
+                  <div className="text-center mb-6">
+                    <p className="font-bold uppercase text-accent tracking-widest">PACK COMPLETO + BÔNUS</p>
+                    <p className="text-2xl line-through text-[#FF4D4D] decoration-[#FF4D4D] mt-4">De R$ 147,90</p>
+                    <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.4)'}}>
+                      R$ 19,90
+                    </p>
+                    <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
+                  </div>
 
-                <Button
-                  size="lg"
-                  className="w-full mt-auto bg-green-600 hover:bg-green-700 text-white font-bold text-lg px-10 py-7 shadow-lg hover:shadow-green-500/50 transition-all duration-300 transform hover:-translate-y-1 rounded-xl border-2 border-green-800"
-                >
-                  QUERO O PACK COMPLETO
-                </Button>
+                  <div className="my-6 space-y-3 flex-grow">
+                    {features.map((feature, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-sm uppercase font-medium text-white/90">{feature}</span>
+                      </div>
+                    ))}
+                    <Separator className="my-4 border-gray-700"/>
+                    {bonuses.map((bonus, index) => (
+                       <div key={index} className="flex items-start gap-3">
+                          <Gift className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                          <span className="text-sm uppercase font-bold text-accent">{bonus}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <Button
+                    size="lg"
+                    className="w-full mt-auto bg-green-600 hover:bg-green-700 text-white font-bold text-lg px-10 py-7 shadow-lg hover:shadow-green-500/50 transition-all duration-300 transform hover:-translate-y-1 rounded-xl border-2 border-green-800"
+                  >
+                    QUERO O PACK COMPLETO
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

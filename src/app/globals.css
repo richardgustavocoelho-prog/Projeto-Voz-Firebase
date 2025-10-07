@@ -110,3 +110,20 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animate-pulsate-gold {
+    animation: pulsate-gold 1.8s infinite;
+  }
+}
+
+@keyframes pulsate-gold {
+  0%, 100% {
+    text-shadow: 0 0 12px rgba(249,178,51,0.6);
+    opacity: 0.8;
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(249,178,51,1);
+    opacity: 1;
+  }
+}

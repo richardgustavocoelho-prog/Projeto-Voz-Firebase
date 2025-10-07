@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronRight, Gift } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { UpsellPopup } from "./UpsellPopup";
+import { FinalOfferPopup } from "./FinalOfferPopup";
 
 const firstCardFeatures = [
     "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
@@ -33,7 +34,12 @@ const bonuses = [
 ];
 
 export function PricingSection() {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [isUpsellPopupOpen, setIsUpsellPopupOpen] = useState(false);
+  const [isFinalOfferPopupOpen, setIsFinalOfferPopupOpen] = useState(false);
+
+  const handleDeclineUpsell = () => {
+    setIsFinalOfferPopupOpen(true);
+  };
 
   return (
     <>
@@ -79,7 +85,7 @@ export function PricingSection() {
               <Button
                 size="lg"
                 className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-                onClick={() => setIsPopupOpen(true)}
+                onClick={() => setIsUpsellPopupOpen(true)}
               >
                 QUERO MINHAS AULAS AGORA!
               </Button>
@@ -127,7 +133,15 @@ export function PricingSection() {
           </div>
         </div>
       </section>
-      <UpsellPopup isOpen={isPopupOpen} onOpenChange={setIsPopupOpen} />
+      <UpsellPopup 
+        isOpen={isUpsellPopupOpen} 
+        onOpenChange={setIsUpsellPopupOpen} 
+        onDecline={handleDeclineUpsell}
+      />
+      <FinalOfferPopup 
+        isOpen={isFinalOfferPopupOpen}
+        onOpenChange={setIsFinalOfferPopupOpen}
+      />
     </>
   );
 }

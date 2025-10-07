@@ -35,7 +35,7 @@ export function FaqSection() {
     <section id="faq" className="py-12 md:py-24" style={{ backgroundColor: '#141414' }}>
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight uppercase animate-pulsate-gold" style={{ color: 'hsl(var(--accent))' }}>
+          <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight uppercase" style={{ color: 'hsl(var(--accent))', textShadow: '0 0 15px rgba(249,178,51,0.6)' }}>
             ❓ PERGUNTAS FREQUENTES
           </h2>
         </div>

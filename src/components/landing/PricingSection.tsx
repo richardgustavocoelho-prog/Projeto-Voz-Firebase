@@ -23,7 +23,6 @@ const features = [
   "EM PDF PARA FACILITAR CONSULTA",
   "ACESSO VITALÍCIO",
   "GARANTIA DE 7 DIAS",
-  "ATUALIZAÇÕES GRÁTIS",
 ];
 
 const bonuses = [
@@ -94,13 +93,12 @@ export function PricingSection() {
 
             {/* Second Card (Premium) */}
             <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
-              <div className="bg-black/40 rounded-[1.25rem] p-0 flex flex-col text-foreground h-full backdrop-blur-sm overflow-hidden">
-
-                <div className="w-full bg-[#141414] text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))' }}>
-                   <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
-                    ⚡ ÚLTIMA CHANCE ⚡
-                  </p>
-                </div>
+              <div className="w-full bg-[#141414] text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))' }}>
+                <p className="font-extrabold text-accent uppercase tracking-widest animate-pulsate-gold text-sm md:text-base" style={{ textShadow: '0 0 12px rgba(249,178,51,0.6)'}}>
+                  ⚡ ÚLTIMA CHANCE ⚡
+                </p>
+              </div>
+              <div className="bg-black/40 rounded-b-[1.25rem] p-0 flex flex-col text-foreground h-full backdrop-blur-sm overflow-hidden">
                 
                 <div className="p-6 md:p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">

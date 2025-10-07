@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Check, ChevronRight, Gift } from "lucide-react";
+import { Check, Gift } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { UpsellPopup } from "./UpsellPopup";
 import { FinalOfferPopup } from "./FinalOfferPopup";
@@ -68,7 +68,7 @@ export function PricingSection() {
                 {firstCardFeatures.map((feature, index) => (
                   <div key={index}>
                     <div className="flex items-center gap-3">
-                      <ChevronRight className="h-5 w-5 text-accent flex-shrink-0" />
+                      <Check className="h-5 w-5 text-primary flex-shrink-0" />
                       <span className="text-sm uppercase font-medium">{feature}</span>
                     </div>
                     {index < firstCardFeatures.length -1 && <Separator className="bg-[#444444] mt-4" />}

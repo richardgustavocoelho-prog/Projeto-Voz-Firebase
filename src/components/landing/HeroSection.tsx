@@ -14,7 +14,7 @@ export function HeroSection() {
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         <div className="mb-8">
             <Image
-              src="https://i.imgur.com/O4w4GuK.png"
+              src="https://i.imgur.com/dVNsmqX.png"
               alt="VoiceStream Academy Logo"
               width={400}
               height={114} 

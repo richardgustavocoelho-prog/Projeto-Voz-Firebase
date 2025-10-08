@@ -4,6 +4,7 @@ import { HeroSection } from '@/components/landing/HeroSection';
 import { ContentBlocks } from '@/components/landing/ContentBlocks';
 import { MaterialSection } from '@/components/landing/MaterialSection';
 import { ForYouSection } from '@/components/landing/ForYouSection';
+import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
 import { BonusSection } from '@/components/landing/BonusSection';
 import { PricingSection } from '@/components/landing/PricingSection';
 import { FaqSection } from '@/components/landing/FaqSection';
@@ -17,6 +18,7 @@ export default function Home() {
         <ContentBlocks />
         <MaterialSection />
         <ForYouSection />
+        <TestimonialsSection />
         <BonusSection />
         <PricingSection />
         <FaqSection />

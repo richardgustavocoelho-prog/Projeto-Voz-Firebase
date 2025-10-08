@@ -29,6 +29,12 @@
       "description": "Ilustração de um professor ensinando, representando didática.",
       "imageUrl": "https://i.imgur.com/2Ikhh9K.png",
       "imageHint": "professional teaching"
+    },
+    {
+      "id": "testimonial-video",
+      "description": "Placeholder for a video testimonial from a teacher.",
+      "imageUrl": "https://picsum.photos/seed/testimonial/800/450",
+      "imageHint": "video testimonial"
     }
   ]
 }

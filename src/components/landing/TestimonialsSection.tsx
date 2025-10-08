@@ -29,13 +29,13 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section className="py-12 md:py-24" style={{ backgroundColor: '#F5F5F5' }}>
+    <section className="py-12 md:py-24 bg-secondary">
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold uppercase text-black">
+          <h2 className="text-3xl md:text-4xl font-bold uppercase text-foreground">
             O Que Dizem Nossos <span className="text-primary">Professores</span>:
           </h2>
-          <p className="text-muted-foreground mt-4 text-black/80">
+          <p className="text-muted-foreground mt-4 text-foreground/80">
             Veja o que professores de canto estão dizendo sobre o Pack de 600 Aulas Prontas e como ele transformou suas rotinas de ensino.
           </p>
         </div>
@@ -44,11 +44,10 @@ export function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 
-              className="bg-white border-0 rounded-xl overflow-hidden flex flex-col" 
-              style={{ boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}
+              className="bg-background/20 border-border rounded-xl overflow-hidden flex flex-col" 
             >
               <CardContent className="p-6 text-left flex-grow flex flex-col">
-                <p className="text-black/80 italic mb-6 flex-grow">"{testimonial.quote}"</p>
+                <p className="text-foreground/80 italic mb-6 flex-grow">"{testimonial.quote}"</p>
                 <div className="flex items-center gap-3">
                   <Image
                     src={testimonial.imageUrl}
@@ -59,8 +58,8 @@ export function TestimonialsSection() {
                     data-ai-hint={testimonial.imageHint}
                   />
                   <div>
-                    <p className="font-bold text-black">{testimonial.author}</p>
-                    <p className="text-sm text-black/60">{testimonial.role}</p>
+                    <p className="font-bold text-foreground">{testimonial.author}</p>
+                    <p className="text-sm text-foreground/60">{testimonial.role}</p>
                   </div>
                 </div>
               </CardContent>

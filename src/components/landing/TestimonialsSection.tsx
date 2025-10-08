@@ -8,21 +8,21 @@ const testimonials = [
     quote: "Antes eu passava horas montando aula, escolhendo repertório e tentando organizar o cronograma. Agora, com o pack, eu só abro o material e ensino. Mudou completamente minha rotina!",
     author: "Ana Paula",
     role: "Professora de canto particular",
-    imageUrl: "https://picsum.photos/seed/ana/36/36",
+    imageUrl: "https://i.imgur.com/IXzXMaO.png",
     imageHint: "profile photo"
   },
   {
     quote: "Eu sempre tive dificuldade pra estruturar minhas aulas e acompanhar a evolução dos alunos. Esse material deixou tudo claro e fácil — até meus alunos perceberam a diferença!",
     author: "Ricardo Lima",
     role: "Instrutor de canto popular",
-    imageUrl: "https://picsum.photos/seed/ricardo/36/36",
+    imageUrl: "https://i.imgur.com/pgsWQz2.png",
     imageHint: "profile photo"
   },
   {
     quote: "Uso as aulas prontas há 3 meses e não quero outra coisa. A didática é excelente, economizo tempo e ainda passo mais segurança pros meus alunos.",
     author: "Juliana Souza",
     role: "Professora em escola de música",
-    imageUrl: "https://picsum.photos/seed/juliana/36/36",
+    imageUrl: "https://i.imgur.com/WPBi1dX.png",
     imageHint: "profile photo"
   },
 ];

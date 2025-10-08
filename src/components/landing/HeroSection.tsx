@@ -28,15 +28,14 @@ export function HeroSection() {
           </h1>
 
           <div className="vsl-container">
-              <div className="wistia_responsive_padding">
-                <div className="wistia_responsive_wrapper">
-                  <div className="wistia_embed wistia_async_5f16lbgntl videoFoam=true">&nbsp;</div>
-                </div>
+            <div className="wistia_responsive_padding">
+              <div className="wistia_responsive_wrapper">
+                <div className="wistia_embed wistia_async_5f16lbgntl videoFoam=true">&nbsp;</div>
               </div>
+            </div>
           </div>
           <Script src="https://fast.wistia.com/embed/medias/5f16lbgntl.jsonp" strategy="afterInteractive" />
           <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="afterInteractive" />
-
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             São mais de 600 aulas prontas e estruturadas para você aplicar

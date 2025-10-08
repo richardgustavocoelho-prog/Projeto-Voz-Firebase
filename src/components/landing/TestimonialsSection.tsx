@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import { Film, Star } from 'lucide-react';
 
 const testimonials = [
   {
@@ -65,6 +66,31 @@ export function TestimonialsSection() {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-16 md:mt-24 max-w-2xl mx-auto text-center">
+          <h3 className="text-2xl font-bold tracking-tight text-foreground mb-6 flex items-center justify-center gap-2">
+            <Film className="h-6 w-6 text-accent" />
+            Veja o que nossos professores têm a dizer:
+          </h3>
+          <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50 aspect-w-9 aspect-h-16 sm:aspect-w-16 sm:aspect-h-9">
+            <Image
+              src="https://picsum.photos/seed/testimonial-video/800/450"
+              alt="Depoimento em vídeo de um professor"
+              fill
+              className="object-cover"
+              data-ai-hint="video testimonial"
+            />
+          </div>
+          <div className="mt-4 text-center">
+            <p className="text-sm text-muted-foreground">
+              Depoimento enviado por João M. – Professor de canto iniciante
+            </p>
+            <div className="flex items-center justify-center gap-2 mt-2 text-amber-400">
+              <Star className="h-5 w-5 fill-current" />
+              <p className="font-bold">4.9 de 5 – baseado em +1.200 professores</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

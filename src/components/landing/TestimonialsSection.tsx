@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Script from 'next/script';
 import { Card, CardContent } from '@/components/ui/card';
 import { Film, Star } from 'lucide-react';
 
@@ -30,69 +31,72 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section className="py-12 md:py-24 bg-secondary">
-      <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold uppercase text-foreground">
-            O Que Dizem Nossos <span className="text-primary">Professores</span>:
-          </h2>
-          <p className="text-muted-foreground mt-4 text-foreground/80">
-            Veja o que professores de canto estão dizendo sobre o Pack de 600 Aulas Prontas e como ele transformou suas rotinas de ensino.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {testimonials.map((testimonial, index) => (
-            <Card 
-              key={index} 
-              className="bg-white border-border rounded-xl overflow-hidden flex flex-col" 
-            >
-              <CardContent className="p-6 text-left flex-grow flex flex-col">
-                <p className="text-black/80 italic mb-6 flex-grow">"{testimonial.quote}"</p>
-                <div className="flex items-center gap-3">
-                  <Image
-                    src={testimonial.imageUrl}
-                    alt={`Foto de ${testimonial.author}`}
-                    width={36}
-                    height={36}
-                    className="rounded-full"
-                    data-ai-hint={testimonial.imageHint}
-                  />
-                  <div>
-                    <p className="font-bold text-black">{testimonial.author}</p>
-                    <p className="text-sm text-black/60">{testimonial.role}</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        <div className="mt-16 md:mt-24 max-w-2xl mx-auto text-center">
-          <h3 className="text-2xl font-bold tracking-tight text-foreground mb-6 flex items-center justify-center gap-2">
-            <Film className="h-6 w-6 text-accent" />
-            Veja o que nossos professores têm a dizer:
-          </h3>
-          <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50 aspect-w-9 aspect-h-16 sm:aspect-w-16 sm:aspect-h-9">
-            <Image
-              src="https://picsum.photos/seed/testimonial-video/800/450"
-              alt="Depoimento em vídeo de um professor"
-              fill
-              className="object-cover"
-              data-ai-hint="video testimonial"
-            />
-          </div>
-          <div className="mt-4 text-center">
-            <p className="text-sm text-muted-foreground">
-              Depoimento enviado por João M. – Professor de canto iniciante
+    <>
+      <section className="py-12 md:py-24 bg-secondary">
+        <div className="container px-4 md:px-6">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold uppercase text-foreground">
+              O Que Dizem Nossos <span className="text-primary">Professores</span>:
+            </h2>
+            <p className="text-muted-foreground mt-4 text-foreground/80">
+              Veja o que professores de canto estão dizendo sobre o Pack de 600 Aulas Prontas e como ele transformou suas rotinas de ensino.
             </p>
-            <div className="flex items-center justify-center gap-2 mt-2 text-amber-400">
-              <Star className="h-5 w-5 fill-current" />
-              <p className="font-bold">4.9 de 5 – baseado em +1.200 professores</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {testimonials.map((testimonial, index) => (
+              <Card 
+                key={index} 
+                className="bg-white border-border rounded-xl overflow-hidden flex flex-col" 
+              >
+                <CardContent className="p-6 text-left flex-grow flex flex-col">
+                  <p className="text-black/80 italic mb-6 flex-grow">"{testimonial.quote}"</p>
+                  <div className="flex items-center gap-3">
+                    <Image
+                      src={testimonial.imageUrl}
+                      alt={`Foto de ${testimonial.author}`}
+                      width={36}
+                      height={36}
+                      className="rounded-full"
+                      data-ai-hint={testimonial.imageHint}
+                    />
+                    <div>
+                      <p className="font-bold text-black">{testimonial.author}</p>
+                      <p className="text-sm text-black/60">{testimonial.role}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-16 md:mt-24 max-w-2xl mx-auto text-center">
+            <h3 className="text-2xl font-bold tracking-tight text-foreground mb-6 flex items-center justify-center gap-2">
+              <Film className="h-6 w-6 text-accent" />
+              Veja o que nossos professores têm a dizer:
+            </h3>
+            <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50 aspect-w-16 aspect-h-9">
+               <div
+                  className="wistia_embed wistia_async_y1py5ceq1u videoFoam=true"
+                  style={{ height: '100%', position: 'relative', width: '100%' }}
+                >
+                  &nbsp;
+                </div>
+            </div>
+            <div className="mt-4 text-center">
+              <p className="text-sm text-muted-foreground">
+                Depoimento enviado por João M. – Professor de canto iniciante
+              </p>
+              <div className="flex items-center justify-center gap-2 mt-2 text-amber-400">
+                <Star className="h-5 w-5 fill-current" />
+                <p className="font-bold">4.9 de 5 – baseado em +1.200 professores</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <Script src="https://fast.wistia.com/embed/medias/y1py5ceq1u.jsonp" strategy="afterInteractive" />
+      <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="afterInteractive" />
+    </>
   );
 }

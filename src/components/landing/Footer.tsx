@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -19,7 +20,7 @@ export function Footer() {
           <Waves className="h-8 w-8 text-accent" />
         </div>
         
-        <h3 className="text-lg font-semibold text-foreground">600 Aulas Prontas</h3>
+        <h3 className="text-lg font-semibold text-foreground">Vocalize+</h3>
         
         <div className="flex items-center gap-4 my-5 text-sm text-muted-foreground">
           <Link href="/politica-de-privacidade" className="hover:text-accent transition-colors">

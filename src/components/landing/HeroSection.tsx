@@ -34,7 +34,6 @@ export function HeroSection() {
                   src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?web_component=true&seo=true" 
                   title="mini vsl finalizada Video" 
                   allow="autoplay; fullscreen" 
-                  allowTransparency={true} 
                   frameBorder="0" 
                   scrolling="no" 
                   className="wistia_embed" 

@@ -92,7 +92,6 @@ export function TestimonialsSection() {
                     src="https://fast.wistia.net/embed/iframe/3dsxbxv1m2?videoFoam=true&seo=true" 
                     title="feedback finalizado Video" 
                     allow="autoplay; fullscreen" 
-                    allowTransparency={true} 
                     frameBorder="0" 
                     scrolling="no" 
                     className="w-full h-full" 

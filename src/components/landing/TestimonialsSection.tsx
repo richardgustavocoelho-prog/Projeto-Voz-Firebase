@@ -94,7 +94,7 @@ export function TestimonialsSection() {
                     allow="autoplay; fullscreen" 
                     frameBorder="0" 
                     scrolling="no" 
-                    className="w-full h-full" 
+                    className="wistia_embed" 
                     name="wistia_embed">
                   </iframe>
                 </div>
@@ -102,7 +102,7 @@ export function TestimonialsSection() {
             </div>
             <div className="mt-4 text-center">
               <p className="text-sm text-muted-foreground">
-                Depoimento enviado por João M. – Professor de canto iniciante
+                Depoimento enviado por Rafael M. – Professor de canto há 12 anos.
               </p>
               <div className="flex items-center justify-center gap-2 mt-2 text-amber-400">
                 <Star className="h-5 w-5 fill-current" />

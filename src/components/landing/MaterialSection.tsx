@@ -52,6 +52,8 @@ export function MaterialSection({ onCTAClick }: MaterialSectionProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {cardData.map((card, index) => {
             const isGreenCard = index % 2 === 0;
+            const starColor = isGreenCard ? 'hsl(var(--accent))' : 'hsl(var(--primary))';
+            const starClassName = `h-8 w-8 md:h-10 md:w-10 ${isGreenCard ? 'text-accent' : 'text-primary'}`;
             return (
               <div
                 key={index}
@@ -59,11 +61,14 @@ export function MaterialSection({ onCTAClick }: MaterialSectionProps) {
                   ${isGreenCard ? 'bg-primary/90' : 'bg-accent/90'}
                 `}
               >
-                <div className="mb-4">
-                  <Star
-                    className={`h-10 w-10 ${isGreenCard ? 'text-accent' : 'text-primary'}`}
-                    fill={isGreenCard ? 'hsl(var(--accent))' : 'hsl(var(--primary))'}
-                  />
+                <div className="mb-4 flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star
+                      key={i}
+                      className={starClassName}
+                      fill={starColor}
+                    />
+                  ))}
                 </div>
                 <h3
                   className={`text-lg font-bold uppercase mb-3 text-black`}

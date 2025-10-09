@@ -2,7 +2,6 @@
 
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
-import Script from 'next/script';
 
 export function HeroSection() {
   return (
@@ -28,10 +27,10 @@ export function HeroSection() {
           </h1>
 
           <div className="vsl-container">
-            <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}>
-              <div className="wistia_responsive_wrapper" style={{height: "100%", left: 0, position: "absolute", top: 0, width: "100%"}}>
+            <div className="wistia_responsive_padding">
+              <div className="wistia_responsive_wrapper">
                 <iframe 
-                  src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?web_component=true&seo=true" 
+                  src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?seo=false&videoFoam=true" 
                   title="mini vsl finalizada Video" 
                   allow="autoplay; fullscreen" 
                   frameBorder="0" 
@@ -59,7 +58,6 @@ export function HeroSection() {
           </Button>
         </div>
       </div>
-      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" />
     </section>
   );
 }

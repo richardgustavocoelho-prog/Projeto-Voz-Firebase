@@ -2,7 +2,6 @@
 
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
-import Script from "next/script";
 
 type HeroSectionProps = {
   onCTAClick: () => void;
@@ -12,7 +11,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
   return (
     <section
       id="hero"
-      className="relative w-full flex items-center justify-center pt-32 pb-12 md:pt-40"
+      className="relative w-full flex items-center justify-center pt-32 pb-12 md:pt-48"
       style={{ backgroundColor: '#12100e' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">

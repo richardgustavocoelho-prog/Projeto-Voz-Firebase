@@ -13,7 +13,7 @@ import { Footer } from '@/components/landing/Footer';
 
 export default function Home() {
   const handleScrollToPricing = () => {
-    const pricingSection = document.getElementById('pricing');
+    const pricingSection = document.getElementById('oferta-1');
     if (pricingSection) {
       pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }

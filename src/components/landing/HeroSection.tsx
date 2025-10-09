@@ -33,15 +33,15 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           <div className="vsl-container">
             <div className="wistia_responsive_padding">
               <div className="wistia_responsive_wrapper">
-                <iframe 
-                  src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?seo=false&videoFoam=true" 
-                  title="mini vsl finalizada Video" 
-                  allow="autoplay; fullscreen" 
-                  frameBorder="0" 
-                  scrolling="no" 
-                  className="wistia_embed" 
-                  name="wistia_embed" 
-                  width="100%" 
+                <iframe
+                  src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?seo=false&videoFoam=true"
+                  title="mini vsl finalizada Video"
+                  allow="autoplay; fullscreen"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="wistia_embed"
+                  name="wistia_embed"
+                  width="100%"
                   height="100%">
                 </iframe>
               </div>
@@ -59,7 +59,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             onClick={onCTAClick}
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            QUERO MINHA 600 AULAS AGORA
+            ✅ QUERO AS 600 AULAS AGORA
           </Button>
         </div>
       </div>

@@ -131,7 +131,7 @@ export function PricingSection() {
                     className="w-full mt-auto font-bold text-lg px-10 py-7 rounded-xl border-2 border-green-800 animate-pulsate-green"
                     style={{ backgroundColor: '#00FF87', color: 'white' }}
                   >
-                    QUERO O PACK COMPLETO
+                    QUERO O ACESSO PREMIUM
                   </Button>
                 </div>
               </div>

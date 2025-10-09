@@ -61,6 +61,15 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           >
             ✅ QUERO AS 600 AULAS AGORA
           </Button>
+          <div className="mt-4 flex justify-center">
+            <Image
+              src="https://i.imgur.com/mJWg0De.png"
+              alt="Mascote 600 Aulas Prontas"
+              width={150}
+              height={150}
+              className="w-auto h-auto"
+            />
+          </div>
         </div>
       </div>
     </section>

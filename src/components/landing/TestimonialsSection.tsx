@@ -75,13 +75,10 @@ export function TestimonialsSection() {
               <Film className="h-6 w-6 text-accent" />
               Veja o que nossos professores têm a dizer:
             </h3>
-            <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50 aspect-w-16 aspect-h-9">
-               <div
-                  className="wistia_embed wistia_async_y1py5ceq1u videoFoam=true"
-                  style={{ height: '100%', position: 'relative', width: '100%' }}
-                >
-                  &nbsp;
-                </div>
+            <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50" style={{padding: '56.25% 0 0 0'}}>
+              <div className="absolute top-0 left-0 w-full h-full">
+                <iframe src="https://fast.wistia.net/embed/iframe/3dsxbxv1m2?web_component=true&seo=true" title="feedback finalizado Video" allow="autoplay; fullscreen" allowTransparency={true} frameBorder="0" scrolling="no" className="w-full h-full" name="wistia_embed"></iframe>
+              </div>
             </div>
             <div className="mt-4 text-center">
               <p className="text-sm text-muted-foreground">
@@ -95,8 +92,7 @@ export function TestimonialsSection() {
           </div>
         </div>
       </section>
-      <Script src="https://fast.wistia.com/embed/medias/y1py5ceq1u.jsonp" strategy="afterInteractive" />
-      <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="afterInteractive" />
+      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" />
     </>
   );
 }

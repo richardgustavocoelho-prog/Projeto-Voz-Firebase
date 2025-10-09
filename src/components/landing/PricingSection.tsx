@@ -56,7 +56,7 @@ export function PricingSection() {
 
           <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl mx-auto items-start">
             {/* First Card */}
-            <div className="w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground">
+            <div className="w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground animate-pulse-gold-border">
               <div className="text-center">
                 <p className="text-base uppercase font-semibold tracking-wider text-white opacity-80 mb-2">ACESSO BÁSICO</p>
                 <p className="text-6xl md:text-7xl font-black text-primary my-2">

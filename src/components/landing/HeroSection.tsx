@@ -3,7 +3,11 @@
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
 
-export function HeroSection() {
+type HeroSectionProps = {
+  onCTAClick: () => void;
+};
+
+export function HeroSection({ onCTAClick }: HeroSectionProps) {
   return (
     <section
       id="hero"
@@ -52,6 +56,7 @@ export function HeroSection() {
         <div className="mt-8">
           <Button
             size="lg"
+            onClick={onCTAClick}
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
             COMEÇAR AGORA

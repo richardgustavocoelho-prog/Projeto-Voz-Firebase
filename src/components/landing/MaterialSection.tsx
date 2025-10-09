@@ -37,7 +37,12 @@ const cardData = [
   },
 ];
 
-export function MaterialSection() {
+type MaterialSectionProps = {
+  onCTAClick: () => void;
+};
+
+
+export function MaterialSection({ onCTAClick }: MaterialSectionProps) {
   return (
     <section className="py-12 md:py-24" style={{ backgroundColor: '#1c1c1c' }}>
       <div className="container px-4 md:px-6">
@@ -77,6 +82,7 @@ export function MaterialSection() {
         <div className="mt-12 text-center">
           <Button
             size="lg"
+            onClick={onCTAClick}
             className="w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2"
           >
             QUERO O MATERIAL COMPLETO

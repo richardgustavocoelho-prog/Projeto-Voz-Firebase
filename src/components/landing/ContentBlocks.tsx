@@ -61,7 +61,12 @@ const getImage = (id: string) => {
   return PlaceHolderImages.find(img => img.id === id);
 }
 
-export function ContentBlocks() {
+type ContentBlocksProps = {
+  onCTAClick: () => void;
+};
+
+
+export function ContentBlocks({ onCTAClick }: ContentBlocksProps) {
   return (
     <section id="acesso" className="py-12 md:py-24 bg-background">
       <div className="container px-4 md:px-6">
@@ -107,6 +112,7 @@ export function ContentBlocks() {
         <div className="mt-12 text-center">
           <Button
             size="lg"
+            onClick={onCTAClick}
             className="w-full max-w-md bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 active:scale-95 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2"
           >
             GARANTIR MEU ACESSO

@@ -59,7 +59,7 @@ export function HeroSection() {
           </Button>
         </div>
       </div>
-      <Script src="https://fast.wistia.net/player.js" strategy="afterInteractive" />
+      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" />
     </section>
   );
 }

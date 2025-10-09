@@ -75,7 +75,7 @@ export function TestimonialsSection() {
               <Film className="h-6 w-6 text-accent" />
               Veja o que nossos professores têm a dizer:
             </h3>
-            <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50" style={{padding: '177.77% 0 0 0'}}>
+            <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-2xl border-2 border-accent/50" style={{padding: '177.78% 0 0 0'}}>
               <div className="absolute top-0 left-0 w-full h-full">
                 <iframe src="https://fast.wistia.net/embed/iframe/3dsxbxv1m2?videoFoam=true&seo=true" title="feedback finalizado Video" allow="autoplay; fullscreen" allowTransparency={true} frameBorder="0" scrolling="no" className="w-full h-full" name="wistia_embed"></iframe>
               </div>

@@ -59,7 +59,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             onClick={onCTAClick}
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            COMEÇAR AGORA
+            QUERO MINHA 600 AULAS AGORA
           </Button>
         </div>
       </div>

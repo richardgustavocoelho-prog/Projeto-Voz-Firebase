@@ -15,16 +15,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
       style={{ backgroundColor: '#12100e' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
-        <div className="mb-8">
-            <Image
-              src="https://i.imgur.com/dVNsmqX.png"
-              alt="VoiceStream Academy Logo"
-              width={400}
-              height={114} 
-              className="w-auto h-auto max-w-[300px] md:max-w-[400px]"
-              priority
-            />
-        </div>
+        
         <div className="max-w-4xl space-y-6">
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline uppercase">
             <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?

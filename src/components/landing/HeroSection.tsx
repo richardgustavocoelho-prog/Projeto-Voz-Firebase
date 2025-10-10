@@ -61,6 +61,16 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           >
             ✅ QUERO AS 600 AULAS AGORA
           </Button>
+          <div className="mt-4">
+            <Image
+              src="https://i.imgur.com/mP7KQUO.png"
+              alt="Selo de garantia"
+              width={350}
+              height={66}
+              className="w-full max-w-[350px] h-auto"
+              data-ai-hint="guarantee seal"
+            />
+          </div>
         </div>
         <div className="mt-6 flex justify-center">
           <Image

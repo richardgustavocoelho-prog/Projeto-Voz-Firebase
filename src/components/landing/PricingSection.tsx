@@ -54,9 +54,9 @@ export function PricingSection() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl items-start">
+          <div className="grid md:grid-cols-2 gap-8 w-full max-w-5xl items-start justify-center">
             {/* First Card */}
-            <div id="oferta-1" className="w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground animate-pulse-gold-border">
+            <div id="oferta-1" className="w-full max-w-md mx-auto bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-6 md:p-8 flex flex-col text-foreground animate-pulse-gold-border">
               <div className="text-center">
                 <p className="text-base uppercase font-semibold tracking-wider text-white opacity-80 mb-2">ACESSO BÁSICO</p>
                 <p className="text-6xl md:text-7xl font-black text-primary my-2">
@@ -87,7 +87,7 @@ export function PricingSection() {
             </div>
 
             {/* Second Card (Premium) */}
-            <div className="relative w-full bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
+            <div className="relative w-full max-w-md mx-auto bg-gradient-to-br from-[#1A1A1A] to-[#0F0F0F] rounded-3xl p-1 shadow-[0_0_40px_rgba(249,178,51,0.3)]">
                <div className="w-full text-center py-2 border-b border-accent/50" style={{ background: 'linear-gradient(90deg, rgba(249,178,51,0.15), rgba(249,178,51,0.05))', borderTopLeftRadius: '1.5rem', borderTopRightRadius: '1.5rem' }}>
                 <p className="font-extrabold text-accent uppercase tracking-widest text-sm md:text-base">
                   ⚡ ÚLTIMA CHANCE ⚡

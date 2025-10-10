@@ -11,7 +11,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
   return (
     <section
       id="hero"
-      className="relative w-full flex items-center justify-center pt-32 pb-12 md:pt-48"
+      className="relative w-full flex items-center justify-center pt-20 pb-12 md:pt-28"
       style={{ backgroundColor: '#12100e' }}
     >
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">

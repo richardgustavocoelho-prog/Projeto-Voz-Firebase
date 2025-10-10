@@ -38,6 +38,16 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
               </div>
             </div>
           </div>
+          
+          <div className="mt-8 flex flex-col items-center w-full">
+            <Button
+              size="lg"
+              onClick={onCTAClick}
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full max-w-md"
+            >
+              ✅ QUERO AS 600 AULAS AGORA
+            </Button>
+          </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             São mais de 600 aulas prontas e estruturadas para você aplicar
@@ -45,13 +55,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </p>
         </div>
         <div className="mt-8 flex flex-col items-center w-full">
-          <Button
-            size="lg"
-            onClick={onCTAClick}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full max-w-md"
-          >
-            ✅ QUERO AS 600 AULAS AGORA
-          </Button>
+          
           <div className="mt-4">
             <Image
               src="https://i.imgur.com/mP7KQUO.png"

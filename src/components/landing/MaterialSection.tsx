@@ -62,7 +62,7 @@ export function MaterialSection({ onCTAClick }: MaterialSectionProps) {
                 `}
               >
                 <div className="mb-4 flex gap-1">
-                  {[...Array(5)].map((_, i) => (
+                  {[...Array(1)].map((_, i) => (
                     <Star
                       key={i}
                       className={starClassName}

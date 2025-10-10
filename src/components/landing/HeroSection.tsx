@@ -53,14 +53,24 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             com seus alunos, do iniciante ao avançado, e otimizar seu tempo.
           </p>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 flex flex-col items-center w-full">
           <Button
             size="lg"
             onClick={onCTAClick}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full max-w-md"
           >
             ✅ QUERO AS 600 AULAS AGORA
           </Button>
+          <div className="mt-6 w-full flex justify-center">
+            <Image
+              src="https://i.imgur.com/rG4jA52.png"
+              alt="Cantora segurando o livro 600 Aulas Prontas"
+              width={300}
+              height={300}
+              className="w-4/5 max-w-[250px] h-auto"
+              data-ai-hint="singer book"
+            />
+          </div>
         </div>
       </div>
     </section>

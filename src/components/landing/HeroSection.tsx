@@ -61,16 +61,6 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           >
             ✅ QUERO AS 600 AULAS AGORA
           </Button>
-          <div className="mt-6 w-full flex justify-center">
-            <Image
-              src="https://i.imgur.com/rG4jA52.png"
-              alt="Cantora segurando o livro 600 Aulas Prontas"
-              width={300}
-              height={300}
-              className="w-4/5 max-w-[250px] h-auto"
-              data-ai-hint="singer book"
-            />
-          </div>
         </div>
       </div>
     </section>

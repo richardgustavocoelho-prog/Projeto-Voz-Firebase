@@ -100,9 +100,15 @@ export function TestimonialsSection() {
             <p className="text-sm text-muted-foreground">
               Depoimento enviado por Rafael M. – Professor de canto há 12 anos.
             </p>
-            <div className="flex items-center justify-center gap-2 mt-2 text-amber-400">
-              <Star className="h-5 w-5 fill-current" />
-              <p className="font-bold">4.9 de 5 – baseado em +1.200 professores</p>
+            <div className="flex items-center justify-center gap-2 mt-2">
+              <div className="flex items-center text-amber-400">
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+              </div>
+              <p className="font-bold text-amber-400">4.9 de 5 – baseado em +1.200 professores</p>
             </div>
           </div>
         </div>

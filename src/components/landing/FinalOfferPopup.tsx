@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
@@ -20,23 +21,22 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent 
-        className="p-0 border-0 max-w-sm w-full bg-[#141414] rounded-3xl shadow-[0_0_40px_rgba(249,178,51,0.3)]"
+        className="p-0 border-0 max-w-sm w-full bg-[#141414] rounded-3xl shadow-[0_0_40px_rgba(249,178,51,0.3)] flex flex-col max-h-[90vh]"
         onInteractOutside={(e) => e.preventDefault()}
         hideCloseButton={true}
       >
         <DialogTitle className="sr-only">Última Oferta</DialogTitle>
-        <div className="w-full text-white rounded-3xl overflow-hidden">
-          
-          <div className="bg-[#FF4D4D] text-center p-2">
-            <p className="font-bold text-xs uppercase">⏰ Última chance — Oferta expira em 2 minutos!</p>
-          </div>
+        
+        <div className="bg-[#FF4D4D] text-center p-2 flex-shrink-0">
+          <p className="font-bold text-xs uppercase text-white">⏰ Última chance — Oferta expira em 2 minutos!</p>
+        </div>
 
-          <div className="p-6 text-center">
-            <h2 className="text-xl md:text-2xl font-extrabold mb-4" style={{ textShadow: '0 0 10px rgba(249, 178, 51, 0.5)' }}>
+        <div className="overflow-y-auto px-6 pt-4 pb-6">
+            <h2 className="text-xl md:text-2xl font-extrabold mb-4 text-center text-white" style={{ textShadow: '0 0 10px rgba(249, 178, 51, 0.5)' }}>
               Você ainda pode garantir o acesso completo – mas é agora ou nunca.
             </h2>
 
-            <div className="bg-black/40 rounded-2xl p-4 my-6 border border-gray-700">
+            <div className="bg-black/40 rounded-2xl p-4 my-6 border border-gray-700 text-center">
               <p className="text-lg line-through text-gray-400 decoration-[#FF4D4D]">DE R$ 147,90</p>
               <p className="text-5xl font-black my-1" style={{ color: '#28FF7A', textShadow: '0 0 15px rgba(40, 255, 122, 0.6)' }}>
                 R$ 6,90
@@ -44,7 +44,7 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
               <p className="text-sm text-gray-400">acesso imediato</p>
             </div>
 
-            <div className="text-left my-6 space-y-3">
+            <div className="text-left my-6 space-y-3 text-white">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <span style={{ color: '#28A745' }}>✅</span>
@@ -52,7 +52,9 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
                 </div>
               ))}
             </div>
+        </div>
 
+        <div className="px-6 pb-6 pt-0 flex flex-col gap-3 flex-shrink-0">
             <Button
               className="w-full font-bold text-lg uppercase tracking-wider h-auto min-h-[3.5rem] rounded-xl transition-all duration-300
                          bg-gradient-to-b from-[#30C04E] to-[#1F8E3E] text-white
@@ -76,14 +78,13 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
               </span>
             </Button>
             
-            <p className="text-gray-400 text-xs italic mt-4">
+            <p className="text-gray-400 text-xs italic mt-2 text-center">
               ⚠️ Essa é a última janela antes do conteúdo sair do ar.
             </p>
 
-            <p className="text-gray-600 text-xs mt-6">
+            <p className="text-gray-600 text-xs mt-2 text-center">
               🔒 Pagamento 100% seguro – acesso imediato após confirmação.
             </p>
-          </div>
         </div>
       </DialogContent>
     </Dialog>

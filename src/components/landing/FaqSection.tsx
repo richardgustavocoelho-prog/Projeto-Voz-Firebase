@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     question: "O material é físico ou digital?",
-    answer: "100% digital. Você receberá os arquivos em PDF, podendo salvar, imprimir ou consultar no celular, tablet ou computador — quando e onde quiser.",
+    answer: "100% digital. Você receberá o acesso no e-mail que cadastrar na pagina de pagamento, podendo salvar, consultar no celular, tablet ou computador quando e onde quiser.",
   },
 {
     question: "E se eu não gostar do conteúdo?",

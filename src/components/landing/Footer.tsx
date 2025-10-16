@@ -33,8 +33,8 @@ export function Footer() {
 
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
           <Instagram className="h-4 w-4" />
-          <a href="https://instagram.com/bata.90e" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-            @bata.90e
+          <a href="https://www.instagram.com/musicalize_ofc" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+            @musicalize_ofc
           </a>
         </div>
         

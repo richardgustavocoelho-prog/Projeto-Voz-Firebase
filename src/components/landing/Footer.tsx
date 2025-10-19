@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from 'react';
-import { Music2, Instagram } from "lucide-react";
+import { Music, Instagram } from "lucide-react";
 
 export function Footer() {
   const [year, setYear] = useState<number | null>(null);
@@ -16,7 +16,7 @@ export function Footer() {
       <div className="container px-4 md:px-6 flex flex-col items-center text-center">
         
         <div className="mb-4">
-          <Music2 className="h-8 w-8 text-accent" />
+          <Music className="h-8 w-8 text-accent" />
         </div>
         
         <h3 className="text-lg font-semibold text-foreground">Musicalize</h3>

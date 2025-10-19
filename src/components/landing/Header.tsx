@@ -9,7 +9,7 @@ export function Header() {
       <div className="container mx-auto flex items-center">
         <Link href="/" className="flex items-center gap-2">
           <Music className="h-8 w-8 text-accent" />
-          <span className="text-xl font-bold text-white">Vocalize+</span>
+          <span className="text-xl font-bold text-white">Musicalize</span>
         </Link>
       </div>
     </header>

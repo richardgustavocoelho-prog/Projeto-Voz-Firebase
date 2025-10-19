@@ -186,3 +186,52 @@ body {
     box-shadow: 0 0 20px 5px rgba(255, 195, 0, 0);
   }
 }
+
+/* ===== BOTÃO FLUTUANTE WHATSAPP ===== */
+.whatsapp-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(145deg, #d4af37, #c59b2a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1); /* deixa o ícone branco */
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #f5cc4d, #e5b93a);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp-button:hover img {
+  transform: scale(1.1);
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 600px) {
+  .whatsapp-button {
+    width: 55px;
+    height: 55px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .whatsapp-button img {
+    width: 26px;
+    height: 26px;
+  }
+}

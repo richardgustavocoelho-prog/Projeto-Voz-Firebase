@@ -194,7 +194,7 @@ body {
   right: 25px;
   width: 60px;
   height: 60px;
-  background: linear-gradient(145deg, #d4af37, #c59b2a);
+  background-color: #25D366;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ body {
 
 .whatsapp-button:hover {
   transform: scale(1.1);
-  background: linear-gradient(145deg, #f5cc4d, #e5b93a);
+  background-color: #34E47A;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 

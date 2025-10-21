@@ -50,8 +50,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            São mais de 600 aulas prontas e estruturadas para você aplicar
-            com seus alunos, do iniciante ao avançado, e otimizar seu tempo.
+            Aulas prontas e estruturadas para aplicar com seus alunos, do zero ao avançado com tarefas, teoria, prática e plano de estudos completo, para economizar seu tempo.
           </p>
         </div>
         <div className="mt-8 flex flex-col items-center w-full">

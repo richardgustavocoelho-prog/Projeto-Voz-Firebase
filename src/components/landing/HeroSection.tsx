@@ -18,7 +18,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
         
         <div className="max-w-4xl space-y-6">
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline uppercase">
-            <span className="text-accent">JÁ PENSOU EM PASSAR MESES</span> SEM PRECISAR ESCREVER UMA ÚNICA AULA?
+            <span className="text-accent">600 Aulas</span> de Técnica Vocal Prontas pra Aplicar
           </h1>
 
           <div className="vsl-container">

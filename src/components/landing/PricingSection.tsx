@@ -7,6 +7,7 @@ import { Check, Gift } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { UpsellPopup } from "./UpsellPopup";
 import { FinalOfferPopup } from "./FinalOfferPopup";
+import Link from "next/link";
 
 const firstCardFeatures = [
     "600 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
@@ -127,13 +128,20 @@ export function PricingSection() {
                     ))}
                   </div>
 
-                  <Button
-                    size="lg"
-                    className="w-full mt-auto font-bold text-lg px-10 py-7 rounded-xl border-2 border-green-800 animate-pulsate-green"
-                    style={{ backgroundColor: '#00FF87', color: 'white' }}
+                  <a
+                    href="https://pay.kirvano.com/85accea4-a546-4022-a1b9-ef6687ff971d"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
                   >
-                    QUERO O ACESSO PREMIUM
-                  </Button>
+                    <Button
+                      size="lg"
+                      className="w-full font-bold text-lg px-10 py-7 rounded-xl border-2 border-green-800 animate-pulsate-green"
+                      style={{ backgroundColor: '#00FF87', color: 'white' }}
+                    >
+                      QUERO O ACESSO PREMIUM
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>

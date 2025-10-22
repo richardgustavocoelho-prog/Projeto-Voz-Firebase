@@ -67,23 +67,30 @@ export function UpsellPopup({ isOpen, onOpenChange, onDecline }: UpsellPopupProp
         </div>
 
         <div className="px-6 pb-6 pt-0 flex flex-col gap-3 flex-shrink-0">
-          <Button
-            className="w-full font-bold text-lg h-14 rounded-xl border-2 border-transparent hover:border-[#F9B233]"
-            style={{ 
-              backgroundColor: '#28A745', 
-              color: 'white', 
-              boxShadow: '0 0 15px rgba(40, 167, 69, 0.5)',
-              transition: 'background-color 0.3s, box-shadow 0.3s'
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.backgroundColor = '#1F8E3E';
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.backgroundColor = '#28A745';
-            }}
+          <a
+            href="https://pay.kirvano.com/ea3102c8-9e0d-45f4-a209-0b188d5c29db"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full"
           >
-            QUERO ESSA OFERTA ESPECIAL!
-          </Button>
+            <Button
+              className="w-full font-bold text-lg h-14 rounded-xl border-2 border-transparent hover:border-[#F9B233]"
+              style={{ 
+                backgroundColor: '#28A745', 
+                color: 'white', 
+                boxShadow: '0 0 15px rgba(40, 167, 69, 0.5)',
+                transition: 'background-color 0.3s, box-shadow 0.3s'
+              }}
+              onMouseOver={(e) => {
+                e.currentTarget.style.backgroundColor = '#1F8E3E';
+              }}
+              onMouseOut={(e) => {
+                e.currentTarget.style.backgroundColor = '#28A745';
+              }}
+            >
+              QUERO ESSA OFERTA ESPECIAL!
+            </Button>
+          </a>
 
           <button 
             onClick={handleDecline}

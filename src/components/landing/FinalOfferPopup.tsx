@@ -55,28 +55,35 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
         </div>
 
         <div className="px-6 pb-6 pt-0 flex flex-col gap-3 flex-shrink-0">
-            <Button
-              className="w-full font-bold text-lg uppercase tracking-wider h-auto min-h-[3.5rem] rounded-xl transition-all duration-300
-                         bg-gradient-to-b from-[#30C04E] to-[#1F8E3E] text-white
-                         border-2 border-[#10742D]
-                         shadow-[0_4px_15px_rgba(0,0,0,0.6)]
-                         hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(40,167,69,0.4)]
-                         relative overflow-hidden group py-3 px-4"
-              style={{ textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)' }}
-            >
-              <span 
-                className="absolute top-0 left-0 w-full h-full opacity-20"
-                style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.3), transparent)'}}
-              ></span>
-               <span 
-                className="absolute -top-px left-1/2 -translate-x-1/2 w-3/4 h-px opacity-80"
-                style={{ background: 'linear-gradient(to right, transparent, #52FF8B, transparent)'}}
-              ></span>
-              <span className="relative flex flex-col items-center justify-center">
-                <span>PEGAR MINHA ÚLTIMA CHANCE</span>
-                <span>AGORA</span>
-              </span>
-            </Button>
+            <a
+                href="https://pay.kirvano.com/2594c236-5cd0-4bec-b901-d8aeb7bdc342"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full"
+              >
+              <Button
+                className="w-full font-bold text-lg uppercase tracking-wider h-auto min-h-[3.5rem] rounded-xl transition-all duration-300
+                           bg-gradient-to-b from-[#30C04E] to-[#1F8E3E] text-white
+                           border-2 border-[#10742D]
+                           shadow-[0_4px_15px_rgba(0,0,0,0.6)]
+                           hover:from-[#39D95C] hover:to-[#28A745] hover:shadow-[0_6px_20px_rgba(40,167,69,0.4)]
+                           relative overflow-hidden group py-3 px-4"
+                style={{ textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)' }}
+              >
+                <span 
+                  className="absolute top-0 left-0 w-full h-full opacity-20"
+                  style={{ background: 'linear-gradient(to bottom, rgba(255,255,255,0.3), transparent)'}}
+                ></span>
+                 <span 
+                  className="absolute -top-px left-1/2 -translate-x-1/2 w-3/4 h-px opacity-80"
+                  style={{ background: 'linear-gradient(to right, transparent, #52FF8B, transparent)'}}
+                ></span>
+                <span className="relative flex flex-col items-center justify-center">
+                  <span>PEGAR MINHA ÚLTIMA CHANCE</span>
+                  <span>AGORA</span>
+                </span>
+              </Button>
+            </a>
             
             <p className="text-gray-400 text-xs italic mt-2 text-center">
               ⚠️ Essa é a última janela antes do conteúdo sair do ar.

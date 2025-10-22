@@ -50,7 +50,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Aulas prontas e estruturadas para aplicar com seus alunos, do zero ao avançado com tarefas, teoria, prática e plano de estudos completo, para economizar seu tempo.
+            Aulas prontas e estruturadas para aplicar com seus alunos, do zero ao avançado. Com tarefas, teoria, prática e plano de estudos completo, para otimizar seu tempo.
           </p>
         </div>
         <div className="mt-8 flex flex-col items-center w-full">
@@ -63,6 +63,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
               height={66}
               className="w-full max-w-[350px] h-auto"
               data-ai-hint="guarantee seal"
+              priority
             />
           </div>
         </div>

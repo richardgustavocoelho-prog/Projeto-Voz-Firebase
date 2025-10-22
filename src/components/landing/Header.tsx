@@ -1,5 +1,3 @@
-"use client";
-
 import { Music } from "lucide-react";
 import Link from "next/link";
 

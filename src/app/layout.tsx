@@ -15,6 +15,25 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <Script id="utmify-pixel-id" strategy="afterInteractive">
+          {`window.pixelId = "68fff3810e72c5b616af00c9";`}
+        </Script>
+        <Script
+          id="utmify-pixel"
+          src="https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+          strategy="afterInteractive"
+          async
+          defer
+        />
+        <Script
+          id="utmify-utms"
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+          strategy="afterInteractive"
+          async
+          defer
+        ></Script>
       </head>
       <body className="font-body antialiased">
         {children}

@@ -39,7 +39,7 @@ export function Footer() {
         </div>
         
         <p className="text-xs text-muted-foreground/70">
-          © {year || new Date().getFullYear()} VoiceStream Academy. Todos os direitos reservados.
+          © {year || new Date().getFullYear()} Musicalize. Todos os direitos reservados.
         </p>
 
       </div>

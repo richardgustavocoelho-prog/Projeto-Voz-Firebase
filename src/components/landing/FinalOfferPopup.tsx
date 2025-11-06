@@ -56,7 +56,7 @@ export function FinalOfferPopup({ isOpen, onOpenChange }: FinalOfferPopupProps) 
 
         <div className="px-6 pb-6 pt-0 flex flex-col gap-3 flex-shrink-0">
             <a
-                href="https://pay.kirvano.com/2594c236-5cd0-4bec-b901-d8aeb7bdc342"
+                href="https://www.ggcheckout.com/checkout/v2/Ey2fRsNa3NM3lDNIyr5S"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"

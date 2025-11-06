@@ -68,7 +68,7 @@ export function UpsellPopup({ isOpen, onOpenChange, onDecline }: UpsellPopupProp
 
         <div className="px-6 pb-6 pt-0 flex flex-col gap-3 flex-shrink-0">
           <a
-            href="https://pay.kirvano.com/ea3102c8-9e0d-45f4-a209-0b188d5c29db"
+            href="https://www.ggcheckout.com/checkout/v2/wSq1rnb17sXxHLKvEK8O"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full"

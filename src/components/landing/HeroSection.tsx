@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
+import Script from "next/script";
 
 type HeroSectionProps = {
   onCTAClick: () => void;
@@ -22,8 +23,14 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </h1>
 
           <div className="vsl-container">
-            
+            <div className="wistia_responsive_padding">
+              <div className="wistia_responsive_wrapper">
+                <div className="wistia_embed wistia_async_4h6k04ba14 seo=false videoFoam=true" style={{height:'100%', position:'relative', width:'100%'}}>&nbsp;</div>
+              </div>
+            </div>
           </div>
+          <Script src="https://fast.wistia.com/embed/medias/4h6k04ba14.jsonp" async />
+          <Script src="https://fast.wistia.com/assets/external/E-v1.js" async />
           
           <div className="mt-8 flex flex-col items-center w-full">
             <Button

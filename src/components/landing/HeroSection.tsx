@@ -22,21 +22,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </h1>
 
           <div className="vsl-container">
-            <div className="wistia_responsive_padding">
-              <div className="wistia_responsive_wrapper">
-                <iframe
-                  src="https://fast.wistia.net/embed/iframe/y1py5ceq1u?videoFoam=true"
-                  title="mini vsl finalizada Video"
-                  allow="autoplay; fullscreen"
-                  frameBorder="0"
-                  scrolling="no"
-                  className="wistia_embed"
-                  name="wistia_embed"
-                  width="100%"
-                  height="100%">
-                </iframe>
-              </div>
-            </div>
+            
           </div>
           
           <div className="mt-8 flex flex-col items-center w-full">

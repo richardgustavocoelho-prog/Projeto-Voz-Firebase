@@ -4,9 +4,9 @@ const cardData = [
   "Prefere praticar sozinho no seu tempo",
   "Se sente confuso com exesso de informações",
   "Busca cantar com mais afinação e segurança",
-  "PROFESSORES QUE ENSINAM CRIANÇAS E ADULTOS",
-  "PROFISSIONAIS COM POUCO TEMPO PARA PLANEJAR",
-  "PROFESSORES QUE QUEREM MELHORAR SUA DIDÁTICA",
+  "Quer um plano claro, prático e eficaz",
+  "Tem pouco tempo livre para praticar",
+  "Quer melhorar sua técnica vocal por conta própria",
 ];
 
 export function ForYouSection() {
@@ -14,7 +14,7 @@ export function ForYouSection() {
     <section className="py-12 md:py-24 bg-white">
       <div className="container px-4 md:px-6">
         <h2 className="text-center text-3xl md:text-4xl font-bold uppercase text-black mb-12">
-          ESSE MATERIAL É PARA VOCÊ:
+          ESSE MATERIAL É PARA VOCÊ QUE:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {cardData.map((text, index) => (

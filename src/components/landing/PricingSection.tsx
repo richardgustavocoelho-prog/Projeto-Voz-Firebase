@@ -31,7 +31,7 @@ const bonuses = [
   "Planner de Treinos de Canto",
   "Acesso a modelos de organização pessoal",
   "BIBLIOTECA DE REPERTÓRIO EXCLUSIVO",
-  "MINI GUIA DE DIDÁTICA MODERNA",
+  "Mini Guia de Técnica Vocal Moderna",
 ];
 
 export function PricingSection() {

@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -107,7 +108,7 @@ export function BonusSection() {
                 />
               </div>
               <h3 className="text-sm font-bold uppercase text-white">
-                Acesso a modelos de organização pessoal
+                Mini Guia de Técnica Vocal Moderna
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
                 GRÁTIS

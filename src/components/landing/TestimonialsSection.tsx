@@ -13,7 +13,7 @@ const testimonials = [
   {
     quote: "Sempre tive dificuldade pra entender o que estudar e como saber se estou evoluindo. Esse material deixou tudo claro e fácil — até minha voz está mais afinada!",
     author: "Ricardo Lima",
-    role: "Entusiasta de música",
+    role: "Canta como hobby",
     imageUrl: "https://i.imgur.com/pgsWQz2.png",
     imageHint: "profile photo"
   },

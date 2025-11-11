@@ -5,8 +5,6 @@ const cardData = [
   "Se sente confuso com exesso de informações",
   "Busca cantar com mais afinação e segurança",
   "Quer um plano claro, prático e eficaz",
-  "Tem pouco tempo livre para praticar",
-  "Quer melhorar sua técnica vocal por conta própria",
 ];
 
 export function ForYouSection() {

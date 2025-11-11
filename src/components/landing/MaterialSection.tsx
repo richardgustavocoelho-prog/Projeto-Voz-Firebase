@@ -33,7 +33,7 @@ const cardData = [
     description: "Pelo valor promocional, o pack oferece um conteúdo completo que vale muito mais do que custa e pode transformar seu canto.",
   },
   {
-    title: "IDEAL PARA PROFESSORES INICIANTES E EXPERIENTES",
+    title: "IDEAL PARA INICIANTES E AUTODIDATAS",
     description: "Mesmo que você nunca tenha cantado profissionalmente ou feito aulas antes, esse material vai guiar você do começo ao avançado.",
   },
 ];

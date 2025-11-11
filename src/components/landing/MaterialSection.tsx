@@ -34,7 +34,7 @@ const cardData = [
   },
   {
     title: "IDEAL PARA PROFESSORES INICIANTES E EXPERIENTES",
-    description: "Seja para quem está começando ou para quem já tem experiência, o pack facilita a vida e eleva o nível de ensino.",
+    description: "Mesmo que você nunca tenha cantado profissionalmente ou feito aulas antes, esse material vai guiar você do começo ao avançado.",
   },
 ];
 

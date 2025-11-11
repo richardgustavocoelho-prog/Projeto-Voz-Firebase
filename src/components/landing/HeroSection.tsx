@@ -25,10 +25,17 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           <div className="vsl-container">
             <div className="wistia_responsive_padding">
               <div className="wistia_responsive_wrapper">
-                <div 
-                  className="wistia_embed wistia_async_4h6k04ba14 seo=false videoFoam=true" 
-                  style={{height:'100%', position:'relative', width:'100%'}}
-                >&nbsp;</div>
+                <iframe 
+                  src="https://fast.wistia.net/embed/iframe/4h6k04ba14?seo=false&videoFoam=true" 
+                  title="Video Player" 
+                  allow="autoplay; fullscreen" 
+                  frameBorder="0" 
+                  scrolling="no" 
+                  className="wistia_embed" 
+                  name="wistia_embed" 
+                  width="100%" 
+                  height="100%"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -62,8 +69,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </div>
         </div>
       </div>
-      <Script src="https://fast.wistia.com/embed/medias/4h6k04ba14.jsonp" strategy="afterInteractive" async />
-      <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="afterInteractive" async />
+      <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="lazyOnload" async />
     </section>
   );
 }

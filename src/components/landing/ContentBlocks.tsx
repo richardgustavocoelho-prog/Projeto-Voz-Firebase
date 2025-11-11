@@ -22,7 +22,7 @@ const cardData = [
     benefits: [
       "Sequência lógica e progressiva: basta seguir e evoluir.",
       "Estrutura pensada para ser usada em aulas presenciais, online ou para autoestudo.",
-      "Cada aula leva em média 30 minutos e já vem com tempo estimado para cada etapa.",
+      "Cada aula leva em média 5 minutos e já vem com tempo estimado para cada etapa.",
     ],
     bgColor: "#2C3E4C",
   },

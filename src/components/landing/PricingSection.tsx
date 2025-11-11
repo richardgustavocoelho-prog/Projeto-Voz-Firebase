@@ -102,7 +102,7 @@ export function PricingSection() {
                     <p className="text-base uppercase font-semibold tracking-wider text-white opacity-80 mb-2">ACESSO PREMIUM</p>
                     <p className="text-2xl line-through text-red-500/80 decoration-red-500">De R$ 147,90</p>
                     <p className="text-7xl md:text-8xl font-black my-2" style={{color: '#00FF87', textShadow: '0 0 15px rgba(0, 255, 135, 0.6)'}}>
-                      R$ 19,90
+                      R$ 27,90
                     </p>
                     <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
                   </div>

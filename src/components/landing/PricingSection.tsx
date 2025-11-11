@@ -22,7 +22,7 @@ const features = [
   "Didática simples e direta para iniciantes",
   "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
   "CRONOGRAMA PASSO A PASSO",
-  "EM PDF PARA FACILITAR CONSULTA",
+  "Aulas organizadas em sequência lógica",
   "ACESSO VITALÍCIO",
   "GARANTIA DE 30 DIAS",
 ];

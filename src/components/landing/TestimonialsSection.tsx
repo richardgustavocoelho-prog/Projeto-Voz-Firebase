@@ -35,7 +35,7 @@ export function TestimonialsSection() {
             O Que Dizem Nossos <span className="text-primary">Professores</span>:
           </h2>
           <p className="text-muted-foreground mt-4 text-foreground/80">
-            Veja o que professores de canto estão dizendo sobre o Pack de 600 Aulas Prontas e como ele transformou suas rotinas de ensino.
+            Veja o que professores de canto estão dizendo sobre o Pack de 25 Aulas Prontas e como ele transformou suas rotinas de ensino.
           </p>
         </div>
 

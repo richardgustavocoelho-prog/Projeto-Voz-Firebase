@@ -6,7 +6,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 const cardData = [
   {
     id: "vocal-technique",
-    title: "🔴 600 Aulas de Técnica Vocal Estruturadas - Do Zero ao Avançado",
+    title: "🔴 25 Aulas de Técnica Vocal Estruturadas - Do Zero ao Avançado",
     benefits: [
       "Método passo a passo, ideal para iniciantes e professores.",
       "Aulas com teoria clara, prática guiada e tarefa de casa.",

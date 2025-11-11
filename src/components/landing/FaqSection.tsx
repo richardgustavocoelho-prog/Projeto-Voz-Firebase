@@ -10,7 +10,7 @@ import {
 const faqData = [
   {
     question: "Esse material serve para quem nunca deu aula de canto?",
-    answer: "Sim! O Pack de 600 Aulas foi criado justamente para ajudar tanto professores iniciantes quanto experientes. As aulas vêm organizadas em um plano de 12 meses, com cada etapa explicada passo a passo — basta abrir o PDF e aplicar.",
+    answer: "Sim! O Pack de 25 Aulas foi criado justamente para ajudar tanto professores iniciantes quanto experientes. As aulas vêm organizadas em um plano de 12 meses, com cada etapa explicada passo a passo — basta abrir o PDF e aplicar.",
   },
   {
     question: "Eu posso adaptar o conteúdo das aulas para o meu método?",

@@ -18,7 +18,7 @@ const cardData = [
   },
   {
     title: "FLEXIBILIDADE PARA DIFERENTES NÍVEIS E IDADES",
-    description: "Conteúdo adaptável para ensinar desde crianças até adultos, seja em nível iniciante ou avançado.",
+    description: "Conteúdo adaptável para todas as idades seja você iniciante total ou alguém que já canta e quer melhorar sua performance.",
   },
   {
     title: "FOCO NA PROSPECÇÃO DE NOVOS ALUNOS",

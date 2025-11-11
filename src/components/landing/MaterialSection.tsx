@@ -30,7 +30,7 @@ const cardData = [
   },
   {
     title: "INVESTIMENTO BAIXO COM ALTO RETORNO",
-    description: "Pelo preço promocional, o pack oferece um excelente custo-benefício, otimizando seu trabalho e melhorando a qualidade das aulas.",
+    description: "Pelo valor promocional, o pack oferece um conteúdo completo que vale muito mais do que custa e pode transformar seu canto.",
   },
   {
     title: "IDEAL PARA PROFESSORES INICIANTES E EXPERIENTES",

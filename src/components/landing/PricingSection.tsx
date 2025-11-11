@@ -17,7 +17,7 @@ const firstCardFeatures = [
 const features = [
   "25 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
   "Aulas passo a passo com tempo estimado, teoria, prática e tarefas",
-  "APLICAÇÕES REAIS COM INTERPRETAÇÃO MUSICAL, REPERTÓRIO E USO DO MICROFONE",
+  "Exercícios com foco em afinação, interpretação, repertório e uso do microfone",
   "Economia de tempo — não precisa mais procurar o que estudar",
   "Didática simples e direta para iniciantes",
   "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",

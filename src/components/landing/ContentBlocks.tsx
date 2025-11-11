@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from 'next/image';
@@ -8,7 +9,7 @@ const cardData = [
     id: "vocal-technique",
     title: "🔴 25 Aulas de Técnica Vocal Estruturadas - Do Zero ao Avançado",
     benefits: [
-      "Método passo a passo, ideal para iniciantes e professores.",
+      "Método passo a passo, ideal para iniciantes e avançados.",
       "Aulas com teoria clara, prática guiada e tarefa de casa.",
       "Tudo organizado em módulos temáticos: postura, respiração, projeção, afinação, vibrato, interpretação e mais.",
       "Linguagem acessível, didática moderna e 100% aplicável.",

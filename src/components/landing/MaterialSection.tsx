@@ -25,7 +25,7 @@ const cardData = [
     description: "Com tudo estruturado, você foca em praticar e evoluir. Basta seguir o plano.",
   },
   {
-    title: "REDUÇÃO DO ESTRESSE E DA IMPROVISAÇÃO",
+    title: "REDUÇÃO DO ESTRESSE E DA DÚVIDA",
     description: "Siga com confiança sabendo exatamente o que fazer em cada aula, sem ficar se perguntando \"e agora?\"",
   },
   {

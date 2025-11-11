@@ -26,7 +26,7 @@ const cardData = [
   },
   {
     title: "REDUÇÃO DO ESTRESSE E DA IMPROVISAÇÃO",
-    description: "Ensine com confiança e segurança, sem se preocupar com o que preparar para a próxima aula.",
+    description: "Siga com confiança sabendo exatamente o que fazer em cada aula, sem ficar se perguntando \"e agora?\"",
   },
   {
     title: "INVESTIMENTO BAIXO COM ALTO RETORNO",

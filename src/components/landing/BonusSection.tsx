@@ -107,7 +107,7 @@ export function BonusSection() {
                 />
               </div>
               <h3 className="text-sm font-bold uppercase text-white">
-                Mini Guia de Didática Moderna
+                Acesso a modelos de organização pessoal
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
                 GRÁTIS

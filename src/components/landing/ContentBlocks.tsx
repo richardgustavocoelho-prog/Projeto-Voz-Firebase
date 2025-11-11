@@ -50,7 +50,7 @@ const cardData = [
     title: "🧑‍🏫 Didática Profissional para Todos os Níveis",
     benefits: [
       "Ideal para quem quer cantar com clareza, confiança e evolução real.",
-      "Pode ser usado como currículo completo em escolas de música.",
+      "Também ideal para autoestudo guiado, sem precisar de experiência.",
       "Economia de tempo: não precisa planejar aula por aula.",
     ],
     bgColor: "#F7E2C4",

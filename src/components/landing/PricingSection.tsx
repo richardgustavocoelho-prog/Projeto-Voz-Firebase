@@ -28,8 +28,8 @@ const features = [
 ];
 
 const bonuses = [
-  "Acesso a modelos de organização pessoal",
   "Planner de Treinos de Canto",
+  "Acesso a modelos de organização pessoal",
   "BIBLIOTECA DE REPERTÓRIO EXCLUSIVO",
   "MINI GUIA DE DIDÁTICA MODERNA",
 ];

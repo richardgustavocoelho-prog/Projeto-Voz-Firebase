@@ -11,7 +11,6 @@ import Link from "next/link";
 
 const firstCardFeatures = [
     "25 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
-    "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
 ];
 
 const features = [

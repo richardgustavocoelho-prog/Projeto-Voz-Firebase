@@ -47,7 +47,7 @@ const cardData = [
   },
   {
     id: "teaching-didactics",
-    title: "🧑‍🏫 Didática Profissional Pronta para Professores",
+    title: "🧑‍🏫 Didática Profissional para Todos os Níveis",
     benefits: [
       "Ideal para professores que querem dar aula com plano e segurança.",
       "Pode ser usado como currículo completo em escolas de música.",

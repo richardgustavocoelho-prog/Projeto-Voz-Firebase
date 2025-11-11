@@ -20,7 +20,7 @@ const testimonials = [
   {
     quote: "Uso as aulas prontas há 3 meses e não quero outra coisa. A didática é excelente, economizo tempo e tenho mais confiança pra cantar em público.",
     author: "Juliana Souza",
-    role: "Cantora amadora",
+    role: "Estudante de canto",
     imageUrl: "https://i.imgur.com/WPBi1dX.png",
     imageHint: "profile photo"
   },

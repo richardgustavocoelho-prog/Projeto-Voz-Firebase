@@ -28,8 +28,8 @@ const features = [
 ];
 
 const bonuses = [
-  "MODELOS DE CONTRATO PRÉ-PRONTOS",
-  "PLANNER DIGITAL PARA PROFESSORES DE MÚSICA",
+  "Acesso a modelos de organização pessoal",
+  "Planner de Treinos de Canto",
   "BIBLIOTECA DE REPERTÓRIO EXCLUSIVO",
   "MINI GUIA DE DIDÁTICA MODERNA",
 ];

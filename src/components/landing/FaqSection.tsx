@@ -18,7 +18,7 @@ const faqData = [
   },
   {
     question: "Em quanto tempo recebo o acesso após a compra?",
-    answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá um link para baixar todo o conteúdo e acessar os bônus diretamente no seu dispositivo.",
+    answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá um link para acessar todo o conteúdo incluindo os bônus diretamente no seu dispositivo.",
   },
   {
     question: "O material é físico ou digital?",

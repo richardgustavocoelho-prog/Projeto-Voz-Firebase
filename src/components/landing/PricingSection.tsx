@@ -20,9 +20,9 @@ const features = [
   "Exercícios com foco em afinação, interpretação, repertório e uso do microfone",
   "Economia de tempo — não precisa mais procurar o que estudar",
   "Didática simples e direta para iniciantes",
-  "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
-  "CRONOGRAMA PASSO A PASSO",
   "Aulas organizadas em sequência lógica",
+  "CRONOGRAMA PASSO A PASSO",
+  "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
   "ACESSO VITALÍCIO",
   "GARANTIA DE 30 DIAS",
 ];

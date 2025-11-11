@@ -14,7 +14,7 @@ const faqData = [
   },
   {
     question: "Posso adaptar o conteúdo para meu ritmo?",
-    answer: "Claro! Todo o material é flexível. Você pode seguir o cronograma original ou adaptar os exercícios e o ritmo de estudo conforme sua necessidade e evolução.",
+    answer: "Claro. Você pode seguir no seu tempo e até refazer as aulas.",
   },
   {
     question: "Em quanto tempo recebo o acesso após a compra?",

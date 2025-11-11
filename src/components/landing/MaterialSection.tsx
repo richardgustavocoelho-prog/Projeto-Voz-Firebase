@@ -1,3 +1,4 @@
+
 "use client";
 import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,7 +14,7 @@ const cardData = [
   },
   {
     title: "DIDÁTICA ORGANIZADA E EFICIENTE",
-    description: "Aulas progressivas que garantem que seus alunos avancem com confiança e resultados reais.",
+    description: "Aulas progressivas que garantem que você avance com segurança, sem pular etapas ou ficar perdido no meio do caminho.",
   },
   {
     title: "FLEXIBILIDADE PARA DIFERENTES NÍVEIS E IDADES",

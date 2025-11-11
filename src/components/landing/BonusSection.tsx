@@ -29,7 +29,7 @@ export function BonusSection() {
                 />
               </div>
               <h3 className="text-sm font-bold uppercase text-white">
-                Modelos de Contratos Pré-Prontos
+                Comunidade Exclusiva de Alunos
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
                 GRÁTIS

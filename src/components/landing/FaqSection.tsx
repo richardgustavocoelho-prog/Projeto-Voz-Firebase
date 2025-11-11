@@ -10,7 +10,7 @@ import {
 const faqData = [
   {
     question: "Esse material serve para quem nunca cantou?",
-    answer: "Sim! O Pack de 25 Aulas foi criado para guiar qualquer pessoa, desde o iniciante absoluto até quem já tem alguma experiência. As aulas são passo a passo e ensinam a base da técnica vocal de forma simples e direta.",
+    answer: "Sim! O método foi feito justamente para iniciantes, mas também serve pra quem já canta e quer melhorar.",
   },
   {
     question: "Eu posso adaptar o conteúdo das aulas para o meu método?",

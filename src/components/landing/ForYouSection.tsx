@@ -3,7 +3,7 @@ const cardData = [
   "Já canta, mas falta técnica e direção",
   "Prefere praticar sozinho no seu tempo",
   "Se sente confuso com exesso de informações",
-  "PROFESSORES QUE ENSINAM EM AULAS PARTICULARES",
+  "Busca cantar com mais afinação e segurança",
   "PROFESSORES QUE ENSINAM CRIANÇAS E ADULTOS",
   "PROFISSIONAIS COM POUCO TEMPO PARA PLANEJAR",
   "PROFESSORES QUE QUEREM MELHORAR SUA DIDÁTICA",

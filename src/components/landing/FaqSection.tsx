@@ -13,8 +13,8 @@ const faqData = [
     answer: "Sim! O método foi feito justamente para iniciantes, mas também serve pra quem já canta e quer melhorar.",
   },
   {
-    question: "Eu posso adaptar o conteúdo das aulas para o meu método?",
-    answer: "Claro! Todo o material é flexível. Você pode seguir o cronograma original ou adaptar os exercícios, repertório e abordagens conforme o perfil dos seus alunos.",
+    question: "Posso adaptar o conteúdo para meu ritmo?",
+    answer: "Claro! Todo o material é flexível. Você pode seguir o cronograma original ou adaptar os exercícios e o ritmo de estudo conforme sua necessidade e evolução.",
   },
   {
     question: "Em quanto tempo recebo o acesso após a compra?",

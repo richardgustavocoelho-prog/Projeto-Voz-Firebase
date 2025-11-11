@@ -62,7 +62,7 @@ export function PricingSection() {
               <div className="text-center">
                 <p className="text-base uppercase font-semibold tracking-wider text-white opacity-80 mb-2">ACESSO BÁSICO</p>
                 <p className="text-6xl md:text-7xl font-black text-primary my-2">
-                  R$ 3,90
+                  R$ 9,90
                 </p>
                 <p className="font-bold uppercase text-foreground">PAGAMENTO ÚNICO</p>
               </div>

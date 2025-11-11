@@ -1,7 +1,7 @@
 const cardData = [
   "Quer aprender a cantar do zero",
   "Já canta, mas falta técnica e direção",
-  "PROFESSORES AUTÔNOMOS",
+  "Prefere praticar sozinho no seu tempo",
   "ESCOLAS DE MÚSICA RECÉM-ABERTAS",
   "PROFESSORES QUE ENSINAM EM AULAS PARTICULARES",
   "PROFESSORES QUE ENSINAM CRIANÇAS E ADULTOS",

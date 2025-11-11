@@ -4,9 +4,9 @@ import { Film, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Antes eu passava horas montando aula, escolhendo repertório e tentando organizar o cronograma. Agora, com o pack, eu só abro o material e ensino. Mudou completamente minha rotina!",
+    quote: "Antes eu passava horas tentando montar um plano de estudos, escolher músicas e entender por onde começar. Agora, com o pack, eu só abro o material e pratico. Mudou completamente minha rotina!",
     author: "Ana Paula",
-    role: "Professora de canto particular",
+    role: "Autodidata",
     imageUrl: "https://i.imgur.com/IXzXMaO.png",
     imageHint: "profile photo"
   },

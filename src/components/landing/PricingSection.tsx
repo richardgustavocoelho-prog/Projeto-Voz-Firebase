@@ -16,10 +16,10 @@ const firstCardFeatures = [
 
 const features = [
   "25 AULAS PRONTAS, ESTRUTURADAS DA BASE AO AVANÇADO",
-  "ROTEIROS DE AULA COM TEMPO ESTIMADO, PASSO A PASSO E TAREFA DE CASA",
+  "Aulas passo a passo com tempo estimado, teoria, prática e tarefas",
   "APLICAÇÕES REAIS COM INTERPRETAÇÃO MUSICAL, REPERTÓRIO E USO DO MICROFONE",
-  "ECONOMIA DE TEMPO — NÃO PRECISA MAIS MONTAR AULA DO ZERO",
-  "ESTRUTURA PROFISSIONAL, MESMO PARA QUEM NUNCA DEU AULA",
+  "Economia de tempo — não precisa mais procurar o que estudar",
+  "Didática simples e direta para iniciantes",
   "ACESSO IMEDIATO EM QUALQUER DISPOSITIVO",
   "CRONOGRAMA PASSO A PASSO",
   "EM PDF PARA FACILITAR CONSULTA",

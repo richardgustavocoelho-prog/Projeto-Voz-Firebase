@@ -11,9 +11,9 @@ const testimonials = [
     imageHint: "profile photo"
   },
   {
-    quote: "Eu sempre tive dificuldade pra estruturar minhas aulas e acompanhar a evolução dos alunos. Esse material deixou tudo claro e fácil — até meus alunos perceberam a diferença!",
+    quote: "Sempre tive dificuldade pra entender o que estudar e como saber se estou evoluindo. Esse material deixou tudo claro e fácil — até minha voz está mais afinada!",
     author: "Ricardo Lima",
-    role: "Instrutor de canto popular",
+    role: "Entusiasta de música",
     imageUrl: "https://i.imgur.com/pgsWQz2.png",
     imageHint: "profile photo"
   },

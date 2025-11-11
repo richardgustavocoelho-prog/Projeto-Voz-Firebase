@@ -21,8 +21,8 @@ const cardData = [
     description: "Conteúdo adaptável para todas as idades seja você iniciante total ou alguém que já canta e quer melhorar sua performance.",
   },
   {
-    title: "FOCO NA PROSPECÇÃO DE NOVOS ALUNOS",
-    description: "Com o planejamento resolvido, sobra mais tempo para captar novos clientes e expandir sua agenda.",
+    title: "FOCO NA PRÁTICA E EVOLUÇÃO",
+    description: "Com tudo estruturado, você foca em praticar e evoluir. Basta seguir o plano.",
   },
   {
     title: "REDUÇÃO DO ESTRESSE E DA IMPROVISAÇÃO",

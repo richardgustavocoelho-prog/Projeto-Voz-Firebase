@@ -9,7 +9,7 @@ const cardData = [
   },
   {
     title: "ECONOMIA DE TEMPO",
-    description: "Evite noites perdidas planejando o que ensinar. Todo o cronograma já está preparado para aplicar diretamente.",
+    description: "Evite perder tempo buscando o que estudar. Todo o cronograma já está estruturado para você aplicar e praticar direto.",
   },
   {
     title: "DIDÁTICA ORGANIZADA E EFICIENTE",

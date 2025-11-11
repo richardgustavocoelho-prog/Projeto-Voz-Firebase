@@ -49,7 +49,7 @@ const cardData = [
     id: "teaching-didactics",
     title: "🧑‍🏫 Didática Profissional para Todos os Níveis",
     benefits: [
-      "Ideal para professores que querem dar aula com plano e segurança.",
+      "Ideal para quem quer cantar com clareza, confiança e evolução real.",
       "Pode ser usado como currículo completo em escolas de música.",
       "Economia de tempo: não precisa planejar aula por aula.",
     ],

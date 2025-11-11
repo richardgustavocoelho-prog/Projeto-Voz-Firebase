@@ -9,8 +9,8 @@ import {
 
 const faqData = [
   {
-    question: "Esse material serve para quem nunca deu aula de canto?",
-    answer: "Sim! O Pack de 25 Aulas foi criado justamente para ajudar tanto professores iniciantes quanto experientes. As aulas vêm organizadas em um plano de 12 meses, com cada etapa explicada passo a passo — basta abrir o PDF e aplicar.",
+    question: "Esse material serve para quem nunca cantou?",
+    answer: "Sim! O Pack de 25 Aulas foi criado para guiar qualquer pessoa, desde o iniciante absoluto até quem já tem alguma experiência. As aulas são passo a passo e ensinam a base da técnica vocal de forma simples e direta.",
   },
   {
     question: "Eu posso adaptar o conteúdo das aulas para o meu método?",

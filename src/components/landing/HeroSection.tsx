@@ -57,8 +57,8 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
               <Image 
                 src="https://i.imgur.com/nXIp8Od.png"
                 alt="Selo de garantia de 30 dias"
-                width={200}
-                height={200}
+                width={250}
+                height={250}
                 className="object-contain"
               />
             </div>

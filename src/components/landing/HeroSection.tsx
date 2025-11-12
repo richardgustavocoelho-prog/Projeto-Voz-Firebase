@@ -54,20 +54,6 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             Aprenda a cantar do zero ao avançado com aulas práticas e um plano direto ao ponto para evoluir em 21 dias com apenas 5 minutos por dia.
           </p>
         </div>
-        <div className="mt-8 flex flex-col items-center w-full">
-          
-          <div className="mt-4">
-            <Image
-              src="https://i.imgur.com/mP7KQUO.png"
-              alt="Selo de garantia"
-              width={350}
-              height={66}
-              className="w-full max-w-[350px] h-auto"
-              data-ai-hint="guarantee seal"
-              priority
-            />
-          </div>
-        </div>
       </div>
       <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="lazyOnload" async />
     </section>

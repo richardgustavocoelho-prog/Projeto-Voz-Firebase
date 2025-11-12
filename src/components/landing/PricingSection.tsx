@@ -78,13 +78,19 @@ export function PricingSection() {
                 ))}
               </div>
 
-              <Button
-                size="lg"
-                className="w-full mt-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-                onClick={() => setIsUpsellPopupOpen(true)}
+              <a
+                href="https://pay.kirvano.com/85accea4-a546-4022-a1b9-ef6687ff971d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full mt-auto"
               >
-                COMEÇAR AGORA
-              </Button>
+                <Button
+                  size="lg"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-10 py-7 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                >
+                  COMEÇAR AGORA
+                </Button>
+              </a>
             </div>
 
             {/* Second Card (Premium) */}

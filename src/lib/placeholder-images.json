@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "vocal-technique",
-      "description": "Ilustração de ondas sonoras representando técnica vocal.",
-      "imageUrl": "https://i.imgur.com/8h1Nv4R.png",
-      "imageHint": "vocal technique"
+      "description": "Ilustração de um fichário com tópicos de técnica vocal.",
+      "imageUrl": "https://i.imgur.com/BxDGZfA.png",
+      "imageHint": "vocal binder"
     },
     {
       "id": "study-plan",
@@ -33,7 +33,7 @@
     {
       "id": "testimonial-video",
       "description": "Placeholder for a video testimonial from a teacher.",
-      "imageUrl": "https://picsum.photos/seed/testimonial/800/450",
+      "imageUrl": "https://images.unsplash.com/photo-1599576219848-222b20473611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2aWRlbyUyMHRlc3RpbW9uaWFsfGVufDB8fHx8MTc2MjkwNjAwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "video testimonial"
     }
   ]

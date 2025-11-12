@@ -97,7 +97,7 @@ export function TestimonialsSection() {
           </div>
           <div className="mt-4 text-center">
             <p className="text-sm text-muted-foreground">
-              Depoimento enviado por Rafael M. – aluno da Musicalize há 12 meses.
+              Depoimento enviado por Rafael M. – aluno da Musicalize há 4 meses.
             </p>
             <div className="flex items-center justify-center gap-2 mt-2">
               <div className="flex items-center text-amber-400">

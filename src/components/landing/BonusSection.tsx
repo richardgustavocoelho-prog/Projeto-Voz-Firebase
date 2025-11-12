@@ -48,7 +48,7 @@ export function BonusSection() {
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
-                  src="https://i.imgur.com/DlLeJIn.png"
+                  src="https://i.imgur.com/zGdRcSq.png"
                   alt="Ilustração de um planner digital em um tablet"
                   fill
                   className="object-contain"

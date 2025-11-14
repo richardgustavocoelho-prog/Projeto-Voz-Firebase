@@ -65,7 +65,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             </div>
         </div>
       </div>
-      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
+      <Script src="https://fast.wistia.net/player.js" strategy="afterInteractive" async />
     </section>
   );
 }

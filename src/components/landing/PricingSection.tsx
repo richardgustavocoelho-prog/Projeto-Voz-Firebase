@@ -134,7 +134,7 @@ export function PricingSection() {
                   </div>
 
                   <a
-                    href="https://pay.kirvano.com/85accea4-a546-4022-a1b9-ef6687ff971d"
+                    href="https://www.ggcheckout.com/checkout/v2/wSq1rnb17sXxHLKvEK8O"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full mt-auto"

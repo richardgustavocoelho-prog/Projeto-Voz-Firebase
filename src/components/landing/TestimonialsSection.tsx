@@ -58,6 +58,7 @@ export function TestimonialsSection() {
                       height={36}
                       className="rounded-full"
                       data-ai-hint={testimonial.imageHint}
+                      loading="lazy"
                     />
                     <div>
                       <p className="font-bold text-black">{testimonial.author}</p>
@@ -115,7 +116,7 @@ export function TestimonialsSection() {
           </div>
         </div>
       </section>
-      <Script src="https://fast.wistia.net/player.js" async />
+      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
     </>
   );
 }

@@ -92,6 +92,7 @@ export function ContentBlocks({ onCTAClick }: ContentBlocksProps) {
                       height={450}
                       className="w-full h-auto object-cover"
                       data-ai-hint={image.imageHint}
+                      loading="lazy"
                     />
                   </div>
                 )}

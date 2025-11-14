@@ -14,11 +14,10 @@ export function BonusSection() {
         <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {/* Card 1: Modelos de Contratos */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 bg-accent shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
-              style={{ backgroundColor: '#fc8404' }}
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
@@ -27,9 +26,10 @@ export function BonusSection() {
                   fill
                   className="object-contain"
                   data-ai-hint="contract clipboard"
+                  loading="lazy"
                 />
               </div>
-              <h3 className="text-sm font-bold uppercase text-white">
+              <h3 className="text-sm font-bold uppercase text-accent-foreground">
                 Acesso a modelos de organização pessoal
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
@@ -40,11 +40,10 @@ export function BonusSection() {
           
           {/* Card 2: Planner Digital */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 bg-accent shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
-              style={{ backgroundColor: '#fc8404' }}
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
@@ -53,9 +52,10 @@ export function BonusSection() {
                   fill
                   className="object-contain"
                   data-ai-hint="digital planner"
+                  loading="lazy"
                 />
               </div>
-              <h3 className="text-sm font-bold uppercase text-white">
+              <h3 className="text-sm font-bold uppercase text-accent-foreground">
                 Planner de Treinos de Canto
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
@@ -66,11 +66,10 @@ export function BonusSection() {
 
           {/* Card 3: Biblioteca de Repertório */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 bg-accent shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent 
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
-              style={{ backgroundColor: '#fc8404' }}
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
@@ -79,9 +78,10 @@ export function BonusSection() {
                   fill
                   className="object-contain"
                   data-ai-hint="music library"
+                  loading="lazy"
                 />
               </div>
-              <h3 className="text-sm font-bold uppercase text-white">
+              <h3 className="text-sm font-bold uppercase text-accent-foreground">
                 Biblioteca de Repertório Exclusivo
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">
@@ -92,11 +92,10 @@ export function BonusSection() {
 
           {/* Card 4: Mini Guia de Didática */}
           <Card 
-            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
+            className="overflow-hidden shadow-xl transform transition-all duration-300 hover:-translate-y-2 flex flex-col rounded-2xl border-0 bg-accent shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)]"
           >
             <CardContent
               className="p-6 flex flex-col items-center text-center flex-grow rounded-2xl"
-              style={{ backgroundColor: '#fc8404' }}
             >
               <div className="relative w-full aspect-[4/3] mb-6">
                 <Image
@@ -105,9 +104,10 @@ export function BonusSection() {
                   fill
                   className="object-contain"
                   data-ai-hint="teaching guide"
+                  loading="lazy"
                 />
               </div>
-              <h3 className="text-sm font-bold uppercase text-white">
+              <h3 className="text-sm font-bold uppercase text-accent-foreground">
                 Mini Guia de Técnica Vocal Moderna
               </h3>
               <p className="text-7xl font-black text-primary mt-4 font-headline">

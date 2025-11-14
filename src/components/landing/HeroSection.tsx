@@ -60,6 +60,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
                 width={250}
                 height={250}
                 className="object-contain"
+                priority
               />
             </div>
         </div>

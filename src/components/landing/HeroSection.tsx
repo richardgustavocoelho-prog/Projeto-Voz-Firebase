@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import Image from "next/image";
+import Script from "next/script";
 
 type HeroSectionProps = {
   onCTAClick: () => void;
@@ -14,6 +15,8 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
       className="relative w-full flex items-center justify-center pt-20 pb-12 md:pt-28"
       style={{ backgroundColor: '#12100e' }}
     >
+      <Script src="https://fast.wistia.com/player.js" strategy="afterInteractive" async />
+      <Script src="https://fast.wistia.com/embed/ceyiptn451.js" strategy="afterInteractive" async type="module" />
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         
         <div className="max-w-4xl space-y-6">
@@ -22,21 +25,15 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </h1>
 
           <div className="vsl-container">
-            <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}>
-              <div className="wistia_responsive_wrapper" style={{height: "100%", left: 0, position: "absolute", top: 0, width: "100%"}}>
-                <iframe 
-                  src="https://fast.wistia.net/embed/iframe/4rs7wz6u58?web_component=true&seo=false"
-                  title="MINI - VSL 2 FINALIZADA Video" 
-                  allow="autoplay; fullscreen" 
-                  frameBorder="0" 
-                  scrolling="no" 
-                  className="wistia_embed" 
-                  name="wistia_embed" 
-                  width="100%" 
-                  height="100%"
-                ></iframe>
-              </div>
-            </div>
+            <style>{`
+              wistia-player[media-id='ceyiptn451']:not(:defined) { 
+                background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/ceyiptn451/swatch'); 
+                display: block; 
+                filter: blur(5px); 
+                padding-top:56.25%; 
+              }
+            `}</style>
+            <wistia-player media-id="ceyiptn451" seo="false" aspect="1.7777777777777777"></wistia-player>
           </div>
           
           <div className="mt-8 flex flex-col items-center w-full">

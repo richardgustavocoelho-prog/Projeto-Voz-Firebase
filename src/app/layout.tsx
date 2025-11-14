@@ -34,6 +34,7 @@ export default function RootLayout({
           async
           defer
         ></Script>
+        <Script src="https://fast.wistia.net/player.js" strategy="afterInteractive" async />
       </head>
       <body className="font-body antialiased">
         {children}

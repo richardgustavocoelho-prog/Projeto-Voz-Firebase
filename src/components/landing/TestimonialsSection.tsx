@@ -116,7 +116,6 @@ export function TestimonialsSection() {
           </div>
         </div>
       </section>
-      <Script src="https://fast.wistia.net/player.js" strategy="afterInteractive" async />
     </>
   );
 }

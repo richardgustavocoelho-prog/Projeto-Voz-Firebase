@@ -1,7 +1,10 @@
 
+"use client"
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Film, Star } from 'lucide-react';
+import Script from 'next/script';
 
 const testimonials = [
   {
@@ -30,6 +33,7 @@ const testimonials = [
 export function TestimonialsSection() {
   return (
     <>
+      <Script src="https://fast.wistia.com/embed/olmn5si435.js" strategy="afterInteractive" async />
       <section className="py-12 md:py-24 bg-secondary">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">
@@ -75,27 +79,19 @@ export function TestimonialsSection() {
               Veja o que nossos alunos têm a dizer:
             </h3>
             <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-2xl border-2 border-black p-1 bg-black" style={{ borderColor: '#FFD700' }}>
-              <div
-                className="relative w-full overflow-hidden rounded-lg"
-                style={{
-                  paddingTop: '177.22%', 
-                  backgroundColor: '#0d0d0d',
-                }}
-              >
-                <div className="absolute top-0 left-0 w-full h-full">
-                  <iframe 
-                    src="https://fast.wistia.net/embed/iframe/zyjaqkhxpn?web_component=true&seo=false" 
-                    title="NEW DEPOIMENTO PRONTO Video" 
-                    allow="autoplay; fullscreen" 
-                    frameBorder="0" 
-                    scrolling="no" 
-                    className="wistia_embed" 
-                    name="wistia_embed" 
-                    width="100%" 
-                    height="100%">
-                  </iframe>
-                </div>
-              </div>
+              <style>{`
+                wistia-player[media-id='olmn5si435']:not(:defined) { 
+                  background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/olmn5si435/swatch'); 
+                  display: block; 
+                  filter: blur(5px); 
+                  padding-top:177.22%; 
+                  border-radius: 0.5rem; /* rounded-lg */
+                }
+                wistia-player[media-id='olmn5si435'] {
+                  border-radius: 0.5rem; /* rounded-lg */
+                }
+              `}</style>
+               <wistia-player media-id="olmn5si435" seo="false" aspect="0.5642633228840125"></wistia-player>
             </div>
             <div className="mt-4 text-center">
               <p className="text-sm text-muted-foreground">

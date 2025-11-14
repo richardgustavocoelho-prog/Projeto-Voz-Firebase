@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { Film, Star } from 'lucide-react';
-import Script from 'next/script';
 
 const testimonials = [
   {

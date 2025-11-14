@@ -23,11 +23,11 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
           </h1>
 
           <div className="vsl-container">
-            <div className="wistia_responsive_padding">
-              <div className="wistia_responsive_wrapper">
+            <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+              <div className="wistia_responsive_wrapper" style={{height: "100%", left: 0, position: "absolute", top: 0, width: "100%"}}>
                 <iframe 
-                  src="https://fast.wistia.net/embed/iframe/4h6k04ba14?seo=false&videoFoam=true" 
-                  title="Video Player" 
+                  src="https://fast.wistia.net/embed/iframe/4rs7wz6u58?web_component=true&seo=false"
+                  title="MINI - VSL 2 FINALIZADA Video" 
                   allow="autoplay; fullscreen" 
                   frameBorder="0" 
                   scrolling="no" 
@@ -64,7 +64,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
             </div>
         </div>
       </div>
-      <Script src="https://fast.wistia.com/assets/external/E-v1.js" strategy="lazyOnload" async />
+      <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
     </section>
   );
 }

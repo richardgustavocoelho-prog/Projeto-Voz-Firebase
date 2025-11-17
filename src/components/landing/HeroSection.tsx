@@ -15,8 +15,7 @@ export function HeroSection({ onCTAClick }: HeroSectionProps) {
       className="relative w-full flex items-center justify-center pt-20 pb-12 md:pt-28"
       style={{ backgroundColor: '#12100e' }}
     >
-      <Script src="https://fast.wistia.com/player.js" strategy="afterInteractive" async />
-      <Script src="https://fast.wistia.com/embed/ceyiptn451.js" strategy="afterInteractive" async type="module" />
+      <Script src="https://fast.wistia.com/embed/ceyiptn451.js" strategy="lazyOnload" async type="module" />
       <div className="container px-4 md:px-6 text-center flex flex-col items-center">
         
         <div className="max-w-4xl space-y-6">

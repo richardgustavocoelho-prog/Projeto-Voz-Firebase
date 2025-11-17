@@ -15,6 +15,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fast.wistia.com" />
+        <link rel="preconnect" href="https://embed-ssl.wistia.com" />
+        <link rel="preconnect" href="https://cdn.utmify.com.br" />
+
         <Script id="utmify-pixel-id" strategy="afterInteractive">
           {`window.pixelId = "68fff3810e72c5b616af00c9";`}
         </Script>
@@ -34,7 +42,7 @@ export default function RootLayout({
           async
           defer
         ></Script>
-        <Script src="https://fast.wistia.net/player.js" strategy="afterInteractive" async />
+        <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
       </head>
       <body className="font-body antialiased">
         {children}
@@ -47,6 +55,7 @@ export default function RootLayout({
           <img
             src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
             alt="WhatsApp"
+            loading="lazy"
           />
         </a>
       </body>

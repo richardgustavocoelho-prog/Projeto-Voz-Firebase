@@ -32,7 +32,7 @@ const testimonials = [
 export function TestimonialsSection() {
   return (
     <>
-      <Script src="https://fast.wistia.com/embed/olmn5si435.js" strategy="afterInteractive" async />
+      <Script src="https://fast.wistia.com/embed/olmn5si435.js" strategy="lazyOnload" async />
       <section className="py-12 md:py-24 bg-secondary">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">

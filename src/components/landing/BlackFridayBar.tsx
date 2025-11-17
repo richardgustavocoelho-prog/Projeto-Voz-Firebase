@@ -41,7 +41,7 @@ export function BlackFridayBar() {
   return (
     <div
       id="blackfriday-bar"
-      className="fixed top-0 left-0 w-full bg-black text-[#FFD700] font-bold font-sans text-base p-3 z-[9999] flex justify-center items-center text-center"
+      className="fixed top-0 left-0 w-full bg-black text-white font-bold font-sans text-base p-3 z-[9999] flex justify-center items-center text-center"
       style={{ boxShadow: '0 0 10px #00FF66' }}
     >
       <span className="hidden md:inline">🎉 Desconto de Black Friday só HOJE nessa página! &nbsp;</span>

@@ -96,12 +96,12 @@ export function ContentBlocks({ onCTAClick }: ContentBlocksProps) {
                     />
                   </div>
                 )}
-                <CardContent className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-lg font-bold uppercase mb-4 leading-tight text-accent">{card.title}</h3>
+                <CardContent className="p-4 md:p-6 flex-grow flex flex-col">
+                  <h3 className="text-base md:text-lg font-bold uppercase mb-4 leading-tight text-accent">{card.title}</h3>
                   <ul className="space-y-2 flex-grow text-white">
                     {card.benefits.map((benefit, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">✅</span>
+                      <li key={idx} className="flex items-start gap-2 md:gap-3 text-sm md:text-base">
+                        <span className="text-primary font-bold mt-1 text-base md:text-lg">✅</span>
                         <span>{benefit}</span>
                       </li>
                     ))}

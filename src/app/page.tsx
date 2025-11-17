@@ -11,6 +11,7 @@ import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
 import { BonusSection } from '@/components/landing/BonusSection';
 import { PricingSection } from '@/components/landing/PricingSection';
 import { FaqSection } from '@/components/landing/FaqSection';
+import { BlackFridayBar } from '@/components/landing/BlackFridayBar';
 
 export default function Home() {
   const handleScrollToPricing = () => {
@@ -22,8 +23,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground font-body">
+      <BlackFridayBar />
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow pt-[52px]">
         <HeroSection onCTAClick={handleScrollToPricing} />
         <ContentBlocks onCTAClick={handleScrollToPricing} />
         <MaterialSection onCTAClick={handleScrollToPricing} />

@@ -17,7 +17,16 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+        />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" 
+          rel="stylesheet" 
+          media="all" 
+        />
 
         <link rel="preconnect" href="https://fast.wistia.com" />
         <link rel="preconnect" href="https://embed-ssl.wistia.com" />

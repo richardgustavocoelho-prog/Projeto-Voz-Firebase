@@ -1,4 +1,3 @@
-
 "use client"
 
 import Image from 'next/image';
@@ -11,7 +10,7 @@ const testimonials = [
     quote: "Antes eu passava horas tentando montar um plano de estudos, escolher músicas e entender por onde começar. Agora, com o pack, eu só abro o material e pratico. Mudou completamente minha rotina!",
     author: "Ana Paula",
     role: "Iniciante em canto",
-    imageUrl: "https://i.imgur.com/IXzXMaO.png",
+    imageUrl: "https://i.imgur.com/rYTsXzh.png",
     imageHint: "profile photo"
   },
   {

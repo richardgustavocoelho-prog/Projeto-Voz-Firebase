@@ -25,7 +25,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background text-foreground font-body">
       <BlackFridayBar />
       <Header />
-      <main className="flex-grow pt-[52px]">
+      <main className="flex-grow pt-[44px]">
         <HeroSection onCTAClick={handleScrollToPricing} />
         <ContentBlocks onCTAClick={handleScrollToPricing} />
         <MaterialSection onCTAClick={handleScrollToPricing} />

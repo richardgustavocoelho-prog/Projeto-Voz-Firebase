@@ -3,33 +3,30 @@
 import { useState, useEffect } from 'react';
 
 export function BlackFridayBar() {
-  const [countdown, setCountdown] = useState("00:00:00");
+  const [countdown, setCountdown] = useState("00h 00m 00s");
 
   useEffect(() => {
     const updateCountdown = () => {
-      // Define o fuso de Brasília (UTC-3)
+      // Obtém o horário atual ajustado para fuso de Brasília (UTC-3)
       const now = new Date();
-      const brasiliaOffset = -3 * 60; // minutos
-      const localOffset = now.getTimezoneOffset();
-      const diff = (brasiliaOffset - localOffset) * 60 * 1000;
-      const brasiliaNow = new Date(now.getTime() + diff);
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+      const brasiliaTime = new Date(utc - (3 * 3600000));
 
-      // Define meia-noite de hoje
-      const midnight = new Date(brasiliaNow);
-      midnight.setHours(24, 0, 0, 0); // próxima meia-noite
+      const endOfDay = new Date(brasiliaTime);
+      endOfDay.setHours(23, 59, 59, 999);
 
-      const remaining = midnight.getTime() - brasiliaNow.getTime();
+      const diff = endOfDay.getTime() - brasiliaTime.getTime();
 
-      if (remaining <= 0) {
-        setCountdown("00:00:00");
+      if (diff <= 0) {
+        setCountdown("00h 00m 00s");
         return;
       }
 
-      const hours = String(Math.floor(remaining / (1000 * 60 * 60))).padStart(2, '0');
-      const minutes = String(Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
-      const seconds = String(Math.floor((remaining % (1000 * 60)) / 1000)).padStart(2, '0');
+      const hours = String(Math.floor(diff / (1000 * 60 * 60))).padStart(2, '0');
+      const minutes = String(Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+      const seconds = String(Math.floor((diff % (1000 * 60)) / 1000)).padStart(2, '0');
 
-      setCountdown(`${hours}:${minutes}:${seconds}`);
+      setCountdown(`${hours}h ${minutes}m ${seconds}s`);
     };
 
     updateCountdown();
@@ -39,16 +36,8 @@ export function BlackFridayBar() {
   }, []);
 
   return (
-    <div
-      id="blackfriday-bar"
-      className="fixed top-0 left-0 w-full bg-black text-white font-bold font-sans text-base p-3 z-[9999] flex justify-center items-center text-center"
-      style={{ boxShadow: '0 0 10px #00FF66' }}
-    >
-      <span className="hidden md:inline">Desconto de Black Friday só HOJE nessa página! &nbsp;</span>
-      <span className="md:hidden flex-shrink-0">Black Friday só HOJE! &nbsp;</span>
-      <span className="flex items-center" style={{ color: '#00FF66' }}>
-        ⏰ <span id="countdown" className="ml-1">{countdown}</span>
-      </span>
+    <div id="black-friday-bar">
+      <span>🔥 Desconto de Black Friday só HOJE nesta página! ⏳ Faltam <span id="countdown">{countdown}</span></span>
     </div>
   );
 }

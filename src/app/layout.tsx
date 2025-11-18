@@ -30,27 +30,7 @@ export default function RootLayout({
 
         <link rel="preconnect" href="https://fast.wistia.com" />
         <link rel="preconnect" href="https://embed-ssl.wistia.com" />
-        <link rel="preconnect" href="https://cdn.utmify.com.br" />
-
-        <Script id="utmify-pixel-id" strategy="afterInteractive">
-          {`window.pixelId = "68fff3810e72c5b616af00c9";`}
-        </Script>
-        <Script
-          id="utmify-pixel"
-          src="https://cdn.utmify.com.br/scripts/pixel/pixel.js"
-          strategy="afterInteractive"
-          async
-          defer
-        />
-        <Script
-          id="utmify-utms"
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-          strategy="afterInteractive"
-          async
-          defer
-        ></Script>
+        
         <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
       </head>
       <body className="font-body antialiased">

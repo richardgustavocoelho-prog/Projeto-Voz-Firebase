@@ -45,9 +45,9 @@ export function BlackFridayBar() {
       style={{ boxShadow: '0 0 10px #00FF66' }}
     >
       <span className="hidden md:inline">Desconto de Black Friday só HOJE nessa página! &nbsp;</span>
-      <span className="md:hidden">Black Friday só HOJE! &nbsp;</span>
-      <span style={{ color: '#00FF66' }}>
-        ⏰ <span id="countdown">{countdown}</span>
+      <span className="md:hidden flex-shrink-0">Black Friday só HOJE! &nbsp;</span>
+      <span className="flex items-center" style={{ color: '#00FF66' }}>
+        ⏰ <span id="countdown" className="ml-1">{countdown}</span>
       </span>
     </div>
   );

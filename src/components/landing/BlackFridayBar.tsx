@@ -37,7 +37,7 @@ export function BlackFridayBar() {
 
   return (
     <div id="black-friday-bar">
-      <span>🔥 Desconto de Black Friday só HOJE nesta página! ⏳ Faltam <span id="countdown">{countdown}</span></span>
+      <span>🔥 Desconto de Black Friday só HOJE nesta página! ⏳ Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
     </div>
   );
 }

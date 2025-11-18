@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -36,8 +37,10 @@ export function BlackFridayBar() {
 
   return (
     <div id="black-friday-bar">
-      <span className="hidden md:inline">Use o cupom "BLACKFRIDAY" e ganhe 15% de desconto! Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
-      <span className="md:hidden">Use o cupom "BLACKFRIDAY" e ganhe 15% de desconto!</span>
+      <span>
+        Use o cupom "<span style={{ color: 'hsl(var(--accent))' }}>BLACKFRIDAY</span>" e ganhe 15% de desconto!
+        <br className="md:hidden" /> Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span>
+      </span>
     </div>
   );
 }

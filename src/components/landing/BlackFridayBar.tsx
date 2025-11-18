@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -37,7 +38,7 @@ export function BlackFridayBar() {
 
   return (
     <div id="black-friday-bar">
-      <span>🔥 Desconto de Black Friday só HOJE nesta página! ⏳ Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
+      <span>🔥 Desconto de Black Friday só <span style={{ color: 'hsl(var(--accent))' }}>HOJE</span> nesta página! ⏳ Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
     </div>
   );
 }

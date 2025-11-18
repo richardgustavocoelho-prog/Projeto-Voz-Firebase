@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -8,7 +7,6 @@ export function BlackFridayBar() {
 
   useEffect(() => {
     const updateCountdown = () => {
-      // Obtém o horário atual ajustado para fuso de Brasília (UTC-3)
       const now = new Date();
       const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
       const brasiliaTime = new Date(utc - (3 * 3600000));
@@ -38,7 +36,8 @@ export function BlackFridayBar() {
 
   return (
     <div id="black-friday-bar">
-      <span>Desconto de Black Friday só <span style={{ color: 'hsl(var(--accent))' }}>HOJE</span> nesta página! Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
+      <span className="hidden md:inline">Use o cupom "BLACKFRIDAY" e ganhe 15% de desconto! Faltam <span id="countdown" style={{ color: 'hsl(var(--accent))' }}>{countdown}</span></span>
+      <span className="md:hidden">Use o cupom "BLACKFRIDAY" e ganhe 15% de desconto!</span>
     </div>
   );
 }
